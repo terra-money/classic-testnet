@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2018-12-05T07:12:15.044576868Z",
+  "genesis_time": "2018-12-05T10:33:58.719398794Z",
   "chain_id": "terra-0001",
   "consensus_params": {
     "block_size": {
@@ -19,7 +19,22 @@
   "app_state": {
     "accounts": [
       {
-        "address": "cosmos1hmjjufleuxkacehppxq9x4cdsxw3948jxn34l0",
+        "address": "cosmos1lf8cwf9atwxrya0c0a9nwkhypaykxccdw36fqj",
+        "coins": [
+          {
+            "denom": "node103Token",
+            "amount": "1000"
+          },
+          {
+            "denom": "luna",
+            "amount": "150"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0"
+      },
+      {
+        "address": "cosmos1as8q7ktqp86we926mnj9hc2tq272pwuuhllt6t",
         "coins": [
           {
             "denom": "node101Token",
@@ -34,7 +49,22 @@
         "account_number": "0"
       },
       {
-        "address": "cosmos1x8lyrexu39g43ckyk2zz8ezcm50e6pduwpc4sw",
+        "address": "cosmos13uy2cwkjxmcurmx78a0y44uz8anqa922j9rwsa",
+        "coins": [
+          {
+            "denom": "node104Token",
+            "amount": "1000"
+          },
+          {
+            "denom": "luna",
+            "amount": "150"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0"
+      },
+      {
+        "address": "cosmos18gwtsf4r88trgklgpwh2q7mec2qk64a9ctc7th",
         "coins": [
           {
             "denom": "node102Token",
@@ -54,7 +84,7 @@
     },
     "stake": {
       "pool": {
-        "loose_tokens": "300.0000000000",
+        "loose_tokens": "600.0000000000",
         "bonded_tokens": "0.0000000000"
       },
       "params": {
@@ -75,7 +105,7 @@
         "inflation": "0.1300000000"
       },
       "params": {
-        "mint_denom": "luna",
+        "mint_denom": "steak",
         "inflation_rate_change": "0.1300000000",
         "inflation_max": "0.2000000000",
         "inflation_min": "0.0700000000",
@@ -107,7 +137,7 @@
       "deposit_params": {
         "min_deposit": [
           {
-            "denom": "luna",
+            "denom": "steak",
             "amount": "10"
           }
         ],
@@ -155,11 +185,11 @@
                   "max_rate": "0.0000000000",
                   "max_change_rate": "0.0000000000"
                 },
-                "delegator_address": "cosmos1hmjjufleuxkacehppxq9x4cdsxw3948jxn34l0",
-                "validator_address": "cosmosvaloper1hmjjufleuxkacehppxq9x4cdsxw3948jr89qnu",
+                "delegator_address": "cosmos1as8q7ktqp86we926mnj9hc2tq272pwuuhllt6t",
+                "validator_address": "cosmosvaloper1as8q7ktqp86we926mnj9hc2tq272pwuujtt7kc",
                 "pubkey": {
                   "type": "tendermint/PubKeyEd25519",
-                  "value": "naU/s23Qw4POeAjfFiW0Mop4INFYdKw/qJh2QYlKmlo="
+                  "value": "ZY1IcPLcTAH/Sqy/6XllJTyNoSjnUrI6juugP2NUdTI="
                 },
                 "delegation": {
                   "denom": "luna",
@@ -176,14 +206,14 @@
             {
               "pub_key": {
                 "type": "tendermint/PubKeySecp256k1",
-                "value": "AxgIaDu/6/VkxV/zog8XydJXX4paMnWrTR5anS4gHbvd"
+                "value": "AxoH9HjpjYTYoNF5l2XtaH4vA838qMJeL4mGPFR3jE9u"
               },
-              "signature": "82I3iwMzIaEUwb/NDlw8S2pWdGzUhq4n2/W8Xs58mUtPA4qDii+CJiyRcIfIF0V58fsB3EmjB1kcv0+/QHkFyw==",
+              "signature": "Q/jrIU6iFeQVJLqK1Fyv9YwfJ8q4ZLtUc0KopUc+XB8EZChZAXTAlqV4r3MRj7vXbpgTRrhRWqglmnGVr0nQaA==",
               "account_number": "0",
               "sequence": "0"
             }
           ],
-          "memo": "dbe7431171f33101415a47b7b734cedd95e96de6@13.124.16.197:26656"
+          "memo": "6aa51d70cf24276237d1d8bcc54f7007532eaebe@13.124.64.5:26656"
         }
       },
       {
@@ -204,11 +234,11 @@
                   "max_rate": "0.0000000000",
                   "max_change_rate": "0.0000000000"
                 },
-                "delegator_address": "cosmos1x8lyrexu39g43ckyk2zz8ezcm50e6pduwpc4sw",
-                "validator_address": "cosmosvaloper1x8lyrexu39g43ckyk2zz8ezcm50e6pdut4vqua",
+                "delegator_address": "cosmos18gwtsf4r88trgklgpwh2q7mec2qk64a9ctc7th",
+                "validator_address": "cosmosvaloper18gwtsf4r88trgklgpwh2q7mec2qk64a9alvt8y",
                 "pubkey": {
                   "type": "tendermint/PubKeyEd25519",
-                  "value": "7BduOBJJvvBRvmS97jmx2jeDtD6GolSdElwtYCzMCqY="
+                  "value": "YjUQ93YGzN2rgy2WIdwiJ+w4fOwi4Bmdjivc79tld4w="
                 },
                 "delegation": {
                   "denom": "luna",
@@ -225,14 +255,112 @@
             {
               "pub_key": {
                 "type": "tendermint/PubKeySecp256k1",
-                "value": "A5T0We3Duufl5QKwNcZrmxjRpIChL83UAVRlKQIWV6Pb"
+                "value": "A7XoYNh/+MdsFdfJmW4D2EFQ0EL1+B8mHbeKWn/Nost5"
               },
-              "signature": "88mgoqU0pZjBFXOQNeEgdXPHtER8kEwtCG+9sdL70GdFfkrD+JndjdpmpCZndvl1jEmRS9z3Gscq1tqrZmC1KA==",
+              "signature": "QukXG+xNoibJqHcFCpjq3w2HvG/wz9BKKfzPELjA3C17smDdIcve9PDLQffIAcjOyMq+/ndIubyUh+eAf0931A==",
               "account_number": "0",
               "sequence": "0"
             }
           ],
-          "memo": "48f560784ad4f0162b37d92ca24bb9ae0eb3b02c@13.209.98.10:26656"
+          "memo": "58ecf169c7c28b4738a0c3057dd1598f096adb8e@54.180.153.198:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "Description": {
+                  "moniker": "node103",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "Commission": {
+                  "rate": "0.0000000000",
+                  "max_rate": "0.0000000000",
+                  "max_change_rate": "0.0000000000"
+                },
+                "delegator_address": "cosmos1lf8cwf9atwxrya0c0a9nwkhypaykxccdw36fqj",
+                "validator_address": "cosmosvaloper1lf8cwf9atwxrya0c0a9nwkhypaykxccdt9wuvp",
+                "pubkey": {
+                  "type": "tendermint/PubKeyEd25519",
+                  "value": "jaduzVB1pZit3P2GCoTwzkuqWinWgM0DqfF6Uk1BuT4="
+                },
+                "delegation": {
+                  "denom": "luna",
+                  "amount": "100"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "0"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AsrklRLpSd9bLqpw3e3URlNzYvPs0pFuFqf7JSYNpctY"
+              },
+              "signature": "qCu2d6IxHen+mo1qTaRNBMR2xS781H9AaO0VBBG1zOU1fnTcfHOUw9u0QZ43vA1ssWND+l0W6x6ppvJoKiXy+g==",
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ],
+          "memo": "f2b5a9447e2635979d6b5ebe207f985280d35471@52.79.75.177:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "Description": {
+                  "moniker": "node104",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "Commission": {
+                  "rate": "0.0000000000",
+                  "max_rate": "0.0000000000",
+                  "max_change_rate": "0.0000000000"
+                },
+                "delegator_address": "cosmos13uy2cwkjxmcurmx78a0y44uz8anqa922j9rwsa",
+                "validator_address": "cosmosvaloper13uy2cwkjxmcurmx78a0y44uz8anqa922h3hmuw",
+                "pubkey": {
+                  "type": "tendermint/PubKeyEd25519",
+                  "value": "YcSgMyB50s3Zgrd741m0+PoZjM6EFo5LE3VNiwRyZeU="
+                },
+                "delegation": {
+                  "denom": "luna",
+                  "amount": "100"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "0"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AzQvl/7wyjQaVLMdv9pThkM6OS06aGoGpPaUaVeq+L4s"
+              },
+              "signature": "oPxajGIPFR1USFP7sCCOibq3N6VOQtcAmPUvQPqIEgxJouyIAWF0CNnWLmWfPbPGiejwD9JUpGNlNMDbieaSWA==",
+              "account_number": "0",
+              "sequence": "0"
+            }
+          ],
+          "memo": "925f5b314d51ff437d27dadd28bebda2a8adae4e@52.78.176.91:26656"
         }
       }
     ]
