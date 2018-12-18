@@ -1,0 +1,349 @@
+{
+  "genesis_time": "2018-12-18T03:00:26.350675424Z",
+  "chain_id": "soju-0002",
+  "consensus_params": {
+    "block_size": {
+      "max_bytes": "22020096",
+      "max_gas": "-1"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "accounts": [
+      {
+        "address": "cosmos1r7nujx7qg54t26njne38pylmgh28h4fu9cv4lx",
+        "coins": [
+          {
+            "denom": "terra",
+            "amount": "1000"
+          },
+          {
+            "denom": "luna",
+            "amount": "150"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0"
+      },
+      {
+        "address": "cosmos1xshc0shvmr5anuysp53are0y5g7864gwct364q",
+        "coins": [
+          {
+            "denom": "terra",
+            "amount": "1000"
+          },
+          {
+            "denom": "luna",
+            "amount": "150"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0"
+      },
+      {
+        "address": "cosmos1mp52s4jyr6ks0e0r4mf9etklv89h2my48mal55",
+        "coins": [
+          {
+            "denom": "terra",
+            "amount": "1000"
+          },
+          {
+            "denom": "luna",
+            "amount": "150"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0"
+      },
+      {
+        "address": "cosmos17q3kt7a90jy5364v7fchwxs6j44ad9a8pd5ajn",
+        "coins": [
+          {
+            "denom": "terra",
+            "amount": "1000"
+          },
+          {
+            "denom": "luna",
+            "amount": "150"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0"
+      }
+    ],
+    "auth": {
+      "collected_fees": null
+    },
+    "stake": {
+      "pool": {
+        "loose_tokens": "600.0000000000",
+        "bonded_tokens": "0.0000000000"
+      },
+      "params": {
+        "unbonding_time": "259200000000000",
+        "max_validators": 100,
+        "bond_denom": "luna"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "bonds": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "distr": {
+      "fee_pool": {
+        "val_accum": {
+          "update_height": "0",
+          "accum": "0.0000000000"
+        },
+        "val_pool": null,
+        "community_pool": null
+      },
+      "community_tax": "0.0200000000",
+      "base_proposer_reward": "0.0100000000",
+      "bonus_proposer_reward": "0.0400000000",
+      "validator_dist_infos": null,
+      "delegator_dist_infos": null,
+      "delegator_withdraw_infos": null,
+      "previous_proposer": "cosmosvalcons1m46yrx"
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "luna",
+            "amount": "10"
+          }
+        ],
+        "max_deposit_period": "172800000000000"
+      },
+      "voting_params": {
+        "voting_period": "172800000000000"
+      },
+      "tally_params": {
+        "quorum": "0.3340000000",
+        "threshold": "0.5000000000",
+        "veto": "0.3340000000",
+        "governance_penalty": "0.0100000000"
+      }
+    },
+    "slashing": {
+      "params": {
+        "max-evidence-age": "120000000000",
+        "signed-blocks-window": "100",
+        "min-signed-per-window": "0.5000000000",
+        "double-sign-unbond-duration": "300000000000",
+        "downtime-unbond-duration": "600000000000",
+        "slash-fraction-double-sign": "0.0500000000",
+        "slash-fraction-downtime": "0.0100000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {},
+      "slashing_periods": null
+    },
+    "gentxs": [
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "Description": {
+                  "moniker": "node101",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "Commission": {
+                  "rate": "0.0000000000",
+                  "max_rate": "0.0000000000",
+                  "max_change_rate": "0.0000000000"
+                },
+                "delegator_address": "cosmos1r7nujx7qg54t26njne38pylmgh28h4fu9cv4lx",
+                "validator_address": "cosmosvaloper1r7nujx7qg54t26njne38pylmgh28h4fuqvcqn4",
+                "pubkey": {
+                  "type": "tendermint/PubKeyEd25519",
+                  "value": "hl78Wo7yV/AqBxCEV3EsnfkhT8LfwJUWsT6xZhVphc4="
+                },
+                "delegation": {
+                  "denom": "luna",
+                  "amount": "100"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "0"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A6ztwhoyMsD32Lq3m+66JLZ1xGn1EgVFPSZ2wRRUkqBC"
+              },
+              "signature": "qaCBF55K6DR8rfYa9gDkna5ZtxdDjWFKS962hsAuKnFm2hPDYyVLT2el5zA6Pi+D50r/vC1XPUAGbJernjqB8A=="
+            }
+          ],
+          "memo": "833dcd21e19b876e8135065ef6650a2d84497b7b@54.180.162.124:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "Description": {
+                  "moniker": "node102",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "Commission": {
+                  "rate": "0.0000000000",
+                  "max_rate": "0.0000000000",
+                  "max_change_rate": "0.0000000000"
+                },
+                "delegator_address": "cosmos1mp52s4jyr6ks0e0r4mf9etklv89h2my48mal55",
+                "validator_address": "cosmosvaloper1mp52s4jyr6ks0e0r4mf9etklv89h2my4z0f2c8",
+                "pubkey": {
+                  "type": "tendermint/PubKeyEd25519",
+                  "value": "3IFx9+xTelLcJ1nWtOmWC4TqQuMpb7UHEEwVG8vBuPU="
+                },
+                "delegation": {
+                  "denom": "luna",
+                  "amount": "100"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "0"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AuOe7zTDVb9DIVsaI+bz3Lc1giYQAolinXT3B9lnSSsh"
+              },
+              "signature": "+0X7ylQVv2ouz/FaqQVVEAkomQ9IfUbNL51oC93Qeox2TZD5yz/dn4AqBEqU4aYlnWeUvIzAd/Z8dpCR8v3gFw=="
+            }
+          ],
+          "memo": "d9056ddf3100cece5c80f80c7a5016fb8dbddc65@54.180.80.242:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "Description": {
+                  "moniker": "node103",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "Commission": {
+                  "rate": "0.0000000000",
+                  "max_rate": "0.0000000000",
+                  "max_change_rate": "0.0000000000"
+                },
+                "delegator_address": "cosmos17q3kt7a90jy5364v7fchwxs6j44ad9a8pd5ajn",
+                "validator_address": "cosmosvaloper17q3kt7a90jy5364v7fchwxs6j44ad9a8yeqg7q",
+                "pubkey": {
+                  "type": "tendermint/PubKeyEd25519",
+                  "value": "rGcmCIS1owz0JQ9zkzpBNMuGunbsNbFSMaESAMt+atc="
+                },
+                "delegation": {
+                  "denom": "luna",
+                  "amount": "100"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "0"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AjpegBRK6yxyE8gG76kUHMTDozQp7Lrd8jPVV8UbXc0j"
+              },
+              "signature": "vA/V0QJ0sGPi+c91PtB+AcGaENlbRz7qE5QbqYJHA+lb2bDfqS/t8y/rNEdmLsZjPeFkgxM7VwTAdeetSg9izA=="
+            }
+          ],
+          "memo": "7035b09bd282f66ffd1e13d2cd01e2c1dd5bc6c1@54.180.141.60:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "Description": {
+                  "moniker": "node104",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "Commission": {
+                  "rate": "0.0000000000",
+                  "max_rate": "0.0000000000",
+                  "max_change_rate": "0.0000000000"
+                },
+                "delegator_address": "cosmos1xshc0shvmr5anuysp53are0y5g7864gwct364q",
+                "validator_address": "cosmosvaloper1xshc0shvmr5anuysp53are0y5g7864gwal90en",
+                "pubkey": {
+                  "type": "tendermint/PubKeyEd25519",
+                  "value": "IHdY8gCDgjHfP1B9nLxl3RQJnY+00cX7W08diO6ZpaU="
+                },
+                "delegation": {
+                  "denom": "luna",
+                  "amount": "100"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "0"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "As8A2jVY0LUf5AmQJbGH9/JVq05Cqj46p7A8cCmZMXON"
+              },
+              "signature": "DYnkSuFGUlsQgWw2EWDBNL64CKerBj+mgiqfQwitNQo5jFy1+h52LgqoUxGJUa8avUA30rIqoiU+W6UOWl44YA=="
+            }
+          ],
+          "memo": "dd380d779000ec4bcfd78d315d377a74126f0362@13.125.236.107:26656"
+        }
+      }
+    ]
+  }
+}

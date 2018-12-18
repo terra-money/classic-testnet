@@ -4,7 +4,7 @@ This repo collects the genesis and configuration files for the various Terra
 testnets. It exists so the [Cosmos-SDK](https://github.com/cosmos/cosmos-sdk) 
 repo does not get bogged down with large genesis files and status updates.
 
-latest seed: 86e33e90bf056b0da9aec3be3d27e472b1fbfad6@13.125.232.86:26656
+latest seed: not exist for now
 
 # Getting Started
 
@@ -13,8 +13,15 @@ To get started with the latest testnet, see the
 
 # Testnet Status
 
+## *December 18, 2018 03:00 UTC* - Soju-0002
+
+- `soju--0002` Launching Soju-0002
+
+## *December 5, 2018 11:40 UTC* - Terra-0001
+
+- `terra--0001` Launching Terra-0001
+
 ## *November 28, 2018 23:00 UTC* - Terra-0000
 
 - `terra--0000` Launching Terra-0000
-
 
