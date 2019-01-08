@@ -8,7 +8,7 @@
 proxy_app = "tcp://127.0.0.1:26658"
 
 # A custom human readable name for this node
-moniker = "node104"
+moniker = "node103"
 
 # If this node is many blocks behind the tip of the chain, FastSync
 # allows them to catchup quickly by downloading blocks in parallel
@@ -109,7 +109,7 @@ laddr = "tcp://0.0.0.0:26656"
 external_address = ""
 
 # Comma separated list of seed nodes to connect to
-seeds = "ce17e6b92c565ce183d95863c437d3b50b992700@soju.terra.money:26656"
+seeds = "90ef933997994a5f4efb2406c2a74e909b4854ad@soju.terra.money:26656"
 
 # Comma separated list of nodes to keep persistent connections to
 persistent_peers = ""
@@ -149,7 +149,7 @@ pex = true
 # peers. If another node asks it for addresses, it responds and disconnects.
 #
 # Does not work if the peer-exchange reactor is disabled.
-seed_mode = true
+seed_mode = false
 
 # Comma separated list of peer IDs to keep private (will not be gossiped to other peers)
 private_peer_ids = ""

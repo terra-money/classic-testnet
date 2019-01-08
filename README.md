@@ -4,9 +4,9 @@ This repo collects the genesis and configuration files for the various Terra
 testnets. It exists so the [Cosmos-SDK](https://github.com/cosmos/cosmos-sdk) 
 repo does not get bogged down with large genesis files and status updates.
 
-latest seed: ce17e6b92c565ce183d95863c437d3b50b992700@soju.terra.money:26656
+latest seed: 90ef933997994a5f4efb2406c2a74e909b4854ad@soju.terra.money:26656
 
-faucet account: terra1r8sh993g5mqac77y8f9s270nsdqhgz2y37mzlm
+faucet account: terra1nk5lsuvy0rcfjcdr8au8za0wq25rat0qa07p6t
 
 # Getting Started
 

@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2019-01-08T03:14:36.045709554Z",
+  "genesis_time": "2019-01-08T05:45:40.229418395Z",
   "chain_id": "soju-0004",
   "consensus_params": {
     "block_size": {
@@ -19,7 +19,7 @@
   "app_state": {
     "accounts": [
       {
-        "address": "terra1hj34efajakhjhjplcnk027rlz6lrtgel2le3zg",
+        "address": "terra1sn92yrwuxhqmyvjjtnqdxsgklnprnxphmr4xfw",
         "coins": [
           {
             "denom": "terra",
@@ -34,7 +34,7 @@
         "account_number": "0"
       },
       {
-        "address": "terra1n6qhhmav6hy23m99c4m2qxm77e93yd9a7xy6d5",
+        "address": "terra1afyvxtv5uu3kr93ma3xpwf8muqvqgqz0wseyx4",
         "coins": [
           {
             "denom": "terra",
@@ -49,7 +49,7 @@
         "account_number": "0"
       },
       {
-        "address": "terra1s84k8ecenj097xkvar90gp0uuv0k6n79pc74u5",
+        "address": "terra1edxmtdzxszvxk6eug3gk2v94g30uvfr43ctnh3",
         "coins": [
           {
             "denom": "terra",
@@ -64,7 +64,7 @@
         "account_number": "0"
       },
       {
-        "address": "terra19tplkcga2k4rrlfv5dy7h4c38fhewt7g7mj2hx",
+        "address": "terra14tdn4vj6tf6a9n2h8rx7pgqazxsagrzx3l2e9f",
         "coins": [
           {
             "denom": "terra",
@@ -79,7 +79,7 @@
         "account_number": "0"
       },
       {
-        "address": "terra1r8sh993g5mqac77y8f9s270nsdqhgz2y37mzlm",
+        "address": "terra1nk5lsuvy0rcfjcdr8au8za0wq25rat0qa07p6t",
         "coins": [
           {
             "denom": "luna",
@@ -205,11 +205,11 @@
                   "max_rate": "0.0000000000",
                   "max_change_rate": "0.0000000000"
                 },
-                "delegator_address": "terra1s84k8ecenj097xkvar90gp0uuv0k6n79pc74u5",
-                "validator_address": "terravaloper1s84k8ecenj097xkvar90gp0uuv0k6n79phjgv8",
+                "delegator_address": "terra14tdn4vj6tf6a9n2h8rx7pgqazxsagrzx3l2e9f",
+                "validator_address": "terravaloper14tdn4vj6tf6a9n2h8rx7pgqazxsagrzx3sxy46",
                 "pubkey": {
                   "type": "tendermint/PubKeyEd25519",
-                  "value": "0hM/fcTonaBQbfxTHRhlyp2z8NJ5vHFXYejRj6LcPk4="
+                  "value": "V9tAw/4lD/66jOEg7JOm7T1k4okgrAYqowwpY4+RyaY="
                 },
                 "delegation": {
                   "denom": "luna",
@@ -226,12 +226,12 @@
             {
               "pub_key": {
                 "type": "tendermint/PubKeySecp256k1",
-                "value": "AxXLqySfDlHaxOF7EZ0Bq9zn7npJKdr85MYjaWS/Smtn"
+                "value": "A2Vu7DVY5W/THimynFMuiQBiY1DyJmApWJefypVNVgTI"
               },
-              "signature": "qQzYkWQw72Wq1X1rps4yB2nbG0pWAyqTGFyNAD0XreQMxVEIYyq/xj5zv/zh+t5p2lDpezXWIpBm1d5yajUXkA=="
+              "signature": "lNGNCLUtK0yXkr4WnGo9/W9QQhGsczAMIkL1wpwteCA6UMo6v5G7VxW1IreaIwgzNC3HKbXaBXQrcy+YbPMUDQ=="
             }
           ],
-          "memo": "85162e424d521ace469401dbc026af6980635be5@52.78.188.73:26656"
+          "memo": "fc3eaa653bb9d19ad0f5460dfc98e28ed7cfbff7@13.124.132.21:26656"
         }
       },
       {
@@ -252,11 +252,11 @@
                   "max_rate": "0.0000000000",
                   "max_change_rate": "0.0000000000"
                 },
-                "delegator_address": "terra1n6qhhmav6hy23m99c4m2qxm77e93yd9a7xy6d5",
-                "validator_address": "terravaloper1n6qhhmav6hy23m99c4m2qxm77e93yd9a7fg8a8",
+                "delegator_address": "terra1sn92yrwuxhqmyvjjtnqdxsgklnprnxphmr4xfw",
+                "validator_address": "terravaloper1sn92yrwuxhqmyvjjtnqdxsgklnprnxphmvemea",
                 "pubkey": {
                   "type": "tendermint/PubKeyEd25519",
-                  "value": "TLoDnjEhcMxx6uJ+YPdepfN+cNWLeVH9wa1HjqFRQEw="
+                  "value": "O8xskRS1ngRhBAF24MteNBHhxRBNqYrZz4ns25NojRQ="
                 },
                 "delegation": {
                   "denom": "luna",
@@ -273,12 +273,12 @@
             {
               "pub_key": {
                 "type": "tendermint/PubKeySecp256k1",
-                "value": "AtIHMVx3i4251m1pkS1MbObtT5S8NPogcHVI0C2XqsCB"
+                "value": "AkPXH/jIPT8EOY6gumy9u35mVVmZ4EgDBCttU5EEZzZS"
               },
-              "signature": "IuJVdssCilVctHi6EyPhPx8sJVfASZ3VuT54X9o+/B5ieJxdh6tib2sBSSBnMhH2z9qgmZg2WQNiZJar2aQJ5Q=="
+              "signature": "x0iG46SO85rt5kuLmKWdSQwVW2n9T2BJ4sw+OvpblfY18f4AJtq9yqA97dVeHt2QuoaWMmqC5K28fHJEsEk4Hw=="
             }
           ],
-          "memo": "93f8ba717f7dc83b3d6b6e1f2ef11bf7c64ca982@13.125.216.180:26656"
+          "memo": "34e5a5558257dc131185fd7082c2bdfdc698f9f1@13.209.68.194:26656"
         }
       },
       {
@@ -299,11 +299,11 @@
                   "max_rate": "0.0000000000",
                   "max_change_rate": "0.0000000000"
                 },
-                "delegator_address": "terra19tplkcga2k4rrlfv5dy7h4c38fhewt7g7mj2hx",
-                "validator_address": "terravaloper19tplkcga2k4rrlfv5dy7h4c38fhewt7g757h84",
+                "delegator_address": "terra1edxmtdzxszvxk6eug3gk2v94g30uvfr43ctnh3",
+                "validator_address": "terravaloper1edxmtdzxszvxk6eug3gk2v94g30uvfr43h8w8z",
                 "pubkey": {
                   "type": "tendermint/PubKeyEd25519",
-                  "value": "iOZ3h2QHtf1oU5+sKCVCXYLEA7LWnjuMHDTFjoiG65Q="
+                  "value": "vCAaxtjzj5qxCHIYoSy4eZ2AzXy0+wD0PIDPvAvY04M="
                 },
                 "delegation": {
                   "denom": "luna",
@@ -320,12 +320,12 @@
             {
               "pub_key": {
                 "type": "tendermint/PubKeySecp256k1",
-                "value": "A2X4tBjb04dOlrL/jMQ+BG77gWljt4XTqjCAw2SEpEIf"
+                "value": "AuR10VHYydLlzLDxDA0Z5tMFHz430ObZ0EZ92PyLGCnM"
               },
-              "signature": "771sKW8KXYriFf53LGxpjw2Ta+PEsuaCSLh/DYyCBocKCd6ZAKlke/kRt1jhkVOEeGiXkOCn/N9VAnvfUEg0Ww=="
+              "signature": "jvF9RtPmPlyFPCPeK7hu2dxKmwA+01jvWyVJ8gPu0tg2Yb98MPBNr9ByyCHbIBaX8nG4XPuOWzpK+huEQd/YRQ=="
             }
           ],
-          "memo": "602eaa30adc39280f04c4883664b7d5406921c00@13.125.185.137:26656"
+          "memo": "290952f97bf5df6be138e71557c29dbc406961f1@13.124.200.195:26656"
         }
       },
       {
@@ -346,11 +346,11 @@
                   "max_rate": "0.0000000000",
                   "max_change_rate": "0.0000000000"
                 },
-                "delegator_address": "terra1hj34efajakhjhjplcnk027rlz6lrtgel2le3zg",
-                "validator_address": "terravaloper1hj34efajakhjhjplcnk027rlz6lrtgel2s4vjm",
+                "delegator_address": "terra1afyvxtv5uu3kr93ma3xpwf8muqvqgqz0wseyx4",
+                "validator_address": "terravaloper1afyvxtv5uu3kr93ma3xpwf8muqvqgqz0wl4ekx",
                 "pubkey": {
                   "type": "tendermint/PubKeyEd25519",
-                  "value": "tjJ2cxga63QWNkm6+xM3CKETJsaaxwFqFXzqEQq+Nxk="
+                  "value": "MFCinMN/wdkRCbtfS7tMf7t/ilnZlPexQBCJjhL2FWc="
                 },
                 "delegation": {
                   "denom": "luna",
@@ -367,12 +367,12 @@
             {
               "pub_key": {
                 "type": "tendermint/PubKeySecp256k1",
-                "value": "AvFbKcQBoE13wb4t/BEFzGOMhahFfhdnUcgWQNwDTdxY"
+                "value": "AhURid8bdbwp3wSLAwvpFGRcHGjxQUoxiJyaEShFIZMx"
               },
-              "signature": "7X2oJt4LepU22LJK8ZJlXkDJKZFj4at1NYLE1zk3OEt4pOAjfxPjEHgzsMbaKIdHAm3TXKX4kcNVLnABtuKm8w=="
+              "signature": "oTB68TjEDt8YtHa0dWvdAsrQGfX5COks9N/S35z9pKt0jm5AnYQb5gmHtbFzj/U+tbip8httIvzgw5wm6GlmtA=="
             }
           ],
-          "memo": "c6b69a8031ae05ad940a96d128dc7bca7a6ad09b@13.124.253.89:26656"
+          "memo": "624ad1b09e1f1c21e9d9d7278f7a4ba79330de8a@13.124.170.48:26656"
         }
       }
     ]
