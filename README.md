@@ -15,7 +15,7 @@ To get started with the latest testnet, see the
 
 # Testnet Status
 
-## *January 7, 2018 08:00 UTC* - Soju-0003
+## *January 8, 2018 04:00 UTC* - Soju-0004
 
 - `soju--0004` Launching Soju-0004
 - market module added
