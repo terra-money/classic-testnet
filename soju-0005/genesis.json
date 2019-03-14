@@ -1,0 +1,428 @@
+{
+  "genesis_time": "2019-03-14T08:23:53.351624154Z",
+  "chain_id": "soju-0005",
+  "consensus_params": {
+    "block_size": {
+      "max_bytes": "22020096",
+      "max_gas": "-1"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "accounts": [
+      {
+        "address": "terra1uf5jy76maj83nc6s8v7l6hejm0vrknsluqhvjz",
+        "coins": [
+          {
+            "denom": "node101token",
+            "amount": "1000000000"
+          },
+          {
+            "denom": "luna",
+            "amount": "500000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra13cv665tw9lu06r38nm5stwk5kefzmw748chl54",
+        "coins": [
+          {
+            "denom": "node103token",
+            "amount": "1000000000"
+          },
+          {
+            "denom": "luna",
+            "amount": "500000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra15lf29j0mrk07u8pjtjqt6mm2yuhpvstu3rhvd4",
+        "coins": [
+          {
+            "denom": "node104token",
+            "amount": "1000000000"
+          },
+          {
+            "denom": "luna",
+            "amount": "500000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra19ymjz2l3f2ujaswkdcftum09k7axhwmahn7stf",
+        "coins": [
+          {
+            "denom": "node102token",
+            "amount": "1000000000"
+          },
+          {
+            "denom": "luna",
+            "amount": "500000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1nk5lsuvy0rcfjcdr8au8za0wq25rat0qa07p6t",
+        "coins": [
+          {
+            "denom": "bgp",
+            "amount": "1000000000000"
+          },
+          {
+            "denom": "chy",
+            "amount": "1000000000000"
+          },
+          {
+            "denom": "eur",
+            "amount": "1000000000000"
+          },
+          {
+            "denom": "jpy",
+            "amount": "1000000000000"
+          },
+          {
+            "denom": "krw",
+            "amount": "1000000000000"
+          },
+          {
+            "denom": "luna",
+            "amount": "1000000000000"
+          },
+          {
+            "denom": "sdr",
+            "amount": "1000000000000"
+          },
+          {
+            "denom": "terra",
+            "amount": "1000000000000"
+          },
+          {
+            "denom": "usd",
+            "amount": "1000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      }
+    ],
+    "auth": {
+      "collected_fees": null,
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "staking": {
+      "pool": {
+        "not_bonded_tokens": "1002000000000",
+        "bonded_tokens": "0"
+      },
+      "params": {
+        "unbonding_time": "259200000000000",
+        "max_validators": 100,
+        "max_entries": 0,
+        "bond_denom": "luna"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "distr": {
+      "fee_pool": {
+        "community_pool": null
+      },
+      "community_tax": "0.000000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": null,
+      "previous_proposer": "",
+      "outstanding_rewards": null,
+      "validator_accumulated_commissions": null,
+      "validator_historical_rewards": null,
+      "validator_current_rewards": null,
+      "delegator_starting_infos": null,
+      "validator_slash_events": null
+    },
+    "treasury": {
+      "params": {
+        "tax_rate_min": "0.001000000000000000",
+        "tax_rate_max": "0.020000000000000000",
+        "tax_cap": {
+          "denom": "sdr",
+          "amount": "1"
+        },
+        "reward_min": "0.050000000000000000",
+        "reward_max": "0.900000000000000000",
+        "epoch_long": "52",
+        "epoch_short": "4",
+        "oracle_share": "0.100000000000000000",
+        "budget_share": "0.900000000000000000"
+      }
+    },
+    "budget": {
+      "params": {
+        "active_threshold": "0.100000000000000000",
+        "legacy_threshold": "0.000000000000000000",
+        "vote_period": "2628000000000000",
+        "min_deposit": {
+          "denom": "sdr",
+          "amount": "100"
+        }
+      }
+    },
+    "oracle": {
+      "params": {
+        "vote_period": "1000000",
+        "vote_threshold": "0.660000000000000000",
+        "drop_threshold": "10"
+      }
+    },
+    "slashing": {
+      "params": {
+        "max_evidence_age": "120000000000",
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "gentxs": [
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "node101",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.000000000000000000",
+                  "max_change_rate": "0.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "terra1uf5jy76maj83nc6s8v7l6hejm0vrknsluqhvjz",
+                "validator_address": "terravaloper1uf5jy76maj83nc6s8v7l6hejm0vrknslu0m3z3",
+                "pubkey": "terravalconspub1zcjduepq8suqv0jjrt23whzg6p5sm2klyxufypqql239re8tzkdrgsuq9rpsvtqekk",
+                "value": {
+                  "denom": "luna",
+                  "amount": "100000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "0"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A+jCYTpTQOJBdoLSny78eLelK3BUgT/lXbvLuaHB5Ure"
+              },
+              "signature": "lNVrfVXghO12weQ0OfMH0qXkP6zV5r8LIvJUXOUy/NwodIClaOAU0oG74pK6IZWVP8TU9GP4IOzliU2/lMWSmg=="
+            }
+          ],
+          "memo": "6954913889233cc446115b1be667b9475863fcc6@54.180.131.98:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "node102",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.000000000000000000",
+                  "max_change_rate": "0.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "terra19ymjz2l3f2ujaswkdcftum09k7axhwmahn7stf",
+                "validator_address": "terravaloper19ymjz2l3f2ujaswkdcftum09k7axhwmahujdm6",
+                "pubkey": "terravalconspub1zcjduepqh4fhthjga0aygauxyzr4gxmmvqatwdvl8xag8d7y6gcl6a7rft6qrrql96",
+                "value": {
+                  "denom": "luna",
+                  "amount": "100000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "0"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A27hPg5k2AHpNzeiUI6TNM2QZKHhzISKbX3YwoU0aJA1"
+              },
+              "signature": "jkXiUm8U8OssTGRwdB39jkB5SIChgrpKJUJmIcQ5UzkEFHEptnnluUImZm5N518GjA0h+CJgxfji6boAK27Ddw=="
+            }
+          ],
+          "memo": "e92be2014b95ea05106a72e3d52028751cfd95f7@13.125.207.230:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "node103",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.000000000000000000",
+                  "max_change_rate": "0.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "terra13cv665tw9lu06r38nm5stwk5kefzmw748chl54",
+                "validator_address": "terravaloper13cv665tw9lu06r38nm5stwk5kefzmw748hmzyx",
+                "pubkey": "terravalconspub1zcjduepq84wf6cm72xnylzsaj8jrk7ygnl8klwl2xtsv6fru7tvv97wa0e7qvsrcl6",
+                "value": {
+                  "denom": "luna",
+                  "amount": "100000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "0"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A4CBx1soD9Lg1QvNNuaX5wwlTfWrD5sL0PYdWDLLO3Mh"
+              },
+              "signature": "w1R5egvDZHaEeNHFfdwCKrgM1m7nL2ZV+lvKkJoWgpkUEYelRlGAfFo8qPfdzZ6uFLmH8B7IDiTzhISifYPkfw=="
+            }
+          ],
+          "memo": "a9de26ae780fb7bc64955535e6de4f1940a52051@52.79.152.183:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "node104",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.000000000000000000",
+                  "max_rate": "0.000000000000000000",
+                  "max_change_rate": "0.000000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "terra15lf29j0mrk07u8pjtjqt6mm2yuhpvstu3rhvd4",
+                "validator_address": "terravaloper15lf29j0mrk07u8pjtjqt6mm2yuhpvstu3vm3ax",
+                "pubkey": "terravalconspub1zcjduepqzqfhzzj79wtl8v5nax8emgnsr0tc0u7lavdnzddj9qqcw78dc3nsv5hcnr",
+                "value": {
+                  "denom": "luna",
+                  "amount": "100000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "0"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A8C2+uxbb2nxm6UumCMAoJpRJ/yspExsJg0tqNu12Dz0"
+              },
+              "signature": "QQbwfR6mYLubZd4ntfho7jnqJvlMjqlpCk+0xtrGyPVfXq2csgr2sYW6A3p/KehAUS8NFuXHw0BTkzyGU9rDrA=="
+            }
+          ],
+          "memo": "b7747b42b41bdd6610e4c5d439f9a03ead6f68f8@54.180.95.3:26656"
+        }
+      }
+    ]
+  }
+}
