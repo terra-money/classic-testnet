@@ -1,4 +1,4 @@
-# Terra Testnets
+# Terra Networks
 ![banner](./terra-network.png)
 
 This repo collects the genesis and configuration files for the various Terra networks (including Soju testnet and Columbus mainnet). 
