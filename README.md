@@ -4,9 +4,9 @@
 This repo collects the genesis and configuration files for the various Terra networks (including Soju testnet and Columbus mainnet). 
 It exists so the [Core repository](https://github.com/terra-project/core) repo does not get bogged down with large genesis files and status updates.
 
-latest seed: 079a0efed6ce13fb41c0e2d6f3386e29b44cf451@soju.terra.money:26656
+**latest seed**: 079a0efed6ce13fb41c0e2d6f3386e29b44cf451@soju.terra.money:26656
 
-faucet account: terra1nk5lsuvy0rcfjcdr8au8za0wq25rat0qa07p6t
+**faucet account**: terra1nk5lsuvy0rcfjcdr8au8za0wq25rat0qa07p6t
 
 ## Getting Started
 
