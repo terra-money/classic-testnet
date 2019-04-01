@@ -1,8 +1,8 @@
 # Terra Testnets
+![banner](./terra-network.png)
 
-This repo collects the genesis and configuration files for the various Terra
-testnets. It exists so the [Cosmos-SDK](https://github.com/cosmos/cosmos-sdk) 
-repo does not get bogged down with large genesis files and status updates.
+This repo collects the genesis and configuration files for the various Terra networks (including Soju testnet and Columbus mainnet). 
+It exists so the [Core repository](https://github.com/terra-project/core) repo does not get bogged down with large genesis files and status updates.
 
 latest seed: 079a0efed6ce13fb41c0e2d6f3386e29b44cf451@soju.terra.money:26656
 
@@ -11,7 +11,7 @@ faucet account: terra1nk5lsuvy0rcfjcdr8au8za0wq25rat0qa07p6t
 # Getting Started
 
 To get started with the latest testnet, see the
-[docs](https://cosmos.network/docs/getting-started/full-node.html).
+[docs](https://github.com/terra-project/core/docs/README.md).
 
 # Testnet Status
 
