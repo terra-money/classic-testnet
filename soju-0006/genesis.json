@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2019-03-28T13:13:39.147086555Z",
+  "genesis_time": "2019-04-03T15:17:42.252716657Z",
   "chain_id": "soju-0006",
   "consensus_params": {
     "block_size": {
@@ -19,15 +19,11 @@
   "app_state": {
     "accounts": [
       {
-        "address": "terra1u2hn552ycvv3acvv9t7a5skzyn3nup9y72lm6w",
+        "address": "terra1p288hlfj6ls3p7e5r7lnpslzc0j0kus8s88y6e",
         "coins": [
           {
-            "denom": "luna",
-            "amount": "1000000000000"
-          },
-          {
-            "denom": "terra",
-            "amount": "1000000000000"
+            "denom": "mluna",
+            "amount": "1000000000000000000"
           }
         ],
         "sequence_number": "0",
@@ -39,15 +35,11 @@
         "end_time": "0"
       },
       {
-        "address": "terra1s6qeu7aywdkswygparak5rr8dgd3ruzy4hvmhz",
+        "address": "terra1l7d532ykhz5t0w585yudexhwqzx652802dcrlu",
         "coins": [
           {
-            "denom": "luna",
-            "amount": "1000000000000"
-          },
-          {
-            "denom": "terra",
-            "amount": "1000000000000"
+            "denom": "mluna",
+            "amount": "1000000000000000000"
           }
         ],
         "sequence_number": "0",
@@ -59,15 +51,11 @@
         "end_time": "0"
       },
       {
-        "address": "terra1q3mrtxqtntrxyyvdzn65f9cmzwl8na5yplgyd3",
+        "address": "terra1mxtnkvp78fwg77yuzgraltv8an826wffnfrcep",
         "coins": [
           {
-            "denom": "luna",
-            "amount": "1000000000000"
-          },
-          {
-            "denom": "terra",
-            "amount": "1000000000000"
+            "denom": "mluna",
+            "amount": "1000000000000000000"
           }
         ],
         "sequence_number": "0",
@@ -79,15 +67,55 @@
         "end_time": "0"
       },
       {
-        "address": "terra1x4v8qgqaazv83tell9xa85jkagk2ekmyfdy02w",
+        "address": "terra1uxafk45whhnwhe0x2704d6mp0jge048ffzzzxz",
         "coins": [
           {
-            "denom": "luna",
-            "amount": "1000000000000"
+            "denom": "mluna",
+            "amount": "1000000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra19pfsvwghsapqrmgtvrnp8qgjp3munev43fcg6l",
+        "coins": [
+          {
+            "denom": "mcny",
+            "amount": "100000000000000000000"
           },
           {
-            "denom": "terra",
-            "amount": "1000000000000"
+            "denom": "meur",
+            "amount": "1000000000000000000"
+          },
+          {
+            "denom": "mgbp",
+            "amount": "1000000000000000000"
+          },
+          {
+            "denom": "mjpy",
+            "amount": "1000000000000000000000"
+          },
+          {
+            "denom": "mkrw",
+            "amount": "10000000000000000000000"
+          },
+          {
+            "denom": "mluna",
+            "amount": "1000000000000000000"
+          },
+          {
+            "denom": "msdr",
+            "amount": "1000000000000000000"
+          },
+          {
+            "denom": "musd",
+            "amount": "1000000000000000000"
           }
         ],
         "sequence_number": "0",
@@ -114,14 +142,14 @@
     },
     "staking": {
       "pool": {
-        "not_bonded_tokens": "4000000000000",
+        "not_bonded_tokens": "5000000000000000000",
         "bonded_tokens": "0"
       },
       "params": {
         "unbonding_time": "259200000000000",
         "max_validators": 100,
         "max_entries": 7,
-        "bond_denom": "luna"
+        "bond_denom": "mluna"
       },
       "last_total_power": "0",
       "last_validator_powers": null,
@@ -154,8 +182,8 @@
           "rate_min": "0.000500000000000000",
           "rate_max": "0.010000000000000000",
           "cap": {
-            "denom": "sdr",
-            "amount": "1"
+            "denom": "msdr",
+            "amount": "1000000"
           },
           "change_max": "0.000250000000000000"
         },
@@ -169,10 +197,7 @@
           "change_max": "0.025000000000000000"
         },
         "seigniorage_burden_target": "0.670000000000000000",
-        "mining_increment": {
-          "denom": "sdr",
-          "amount": "1.000000000000000000"
-        },
+        "mining_increment": "1.070000000000000000",
         "epoch_short": "4",
         "epoch_long": "52",
         "epoch_probation": "12",
@@ -188,8 +213,8 @@
         "legacy_threshold": "0.000000000000000000",
         "vote_period": "1000000",
         "deposit": {
-          "denom": "sdr",
-          "amount": "100"
+          "denom": "msdr",
+          "amount": "100000000"
         }
       }
     },
@@ -232,11 +257,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "terra1x4v8qgqaazv83tell9xa85jkagk2ekmyfdy02w",
-                "validator_address": "terravaloper1x4v8qgqaazv83tell9xa85jkagk2ekmyfzgj6a",
-                "pubkey": "terravalconspub1zcjduepq6ddc4vmzz0yer79y7rx989exrqq07fm53gz4nkmz6y7wnfdn5dtqzq7h8h",
+                "delegator_address": "terra1uxafk45whhnwhe0x2704d6mp0jge048ffzzzxz",
+                "validator_address": "terravaloper1uxafk45whhnwhe0x2704d6mp0jge048ffdwlk3",
+                "pubkey": "terravalconspub1zcjduepqq2t7m24x5drf2e3ten98ghfgk9zd8uy3g9ux68tq60c9pneq892sm4lmx4",
                 "value": {
-                  "denom": "luna",
+                  "denom": "mluna",
                   "amount": "100000000"
                 }
               }
@@ -250,12 +275,12 @@
             {
               "pub_key": {
                 "type": "tendermint/PubKeySecp256k1",
-                "value": "AlCc6tJEkB0J/aOvhl4EBCA5hs4nlQST6MIMjec6tkrL"
+                "value": "A7+mJXKa39NXim9lI3OyYf9uAU4hDqKgh17o6iEwK0jn"
               },
-              "signature": "ybIvWgL8hfvvJQBCuTeieGYE5k0kXneuHRPG2tMnRvtOAc4CbwP8DEHZ7mY6srSwt3gMCGBPU626OwUaJJQjcw=="
+              "signature": "X+D0hzYqcboLzCRw1PptM0pFxoImXTJ7EsCqjUtircYOmy2H2JbUTjrz+wUJLRge3wdq3TGcl0pQ8whvat4GFg=="
             }
           ],
-          "memo": "668c1fad0df06b396003ac2f9d47771d911d2071@10.10.2.204:26656"
+          "memo": "c5d0a19ca97a9f9ad9359f9e06395b96ab58c0b8@10.10.2.92:26656"
         }
       },
       {
@@ -277,11 +302,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "terra1s6qeu7aywdkswygparak5rr8dgd3ruzy4hvmhz",
-                "validator_address": "terravaloper1s6qeu7aywdkswygparak5rr8dgd3ruzy4cqx83",
-                "pubkey": "terravalconspub1zcjduepq8rzm9znq0vvry7j0524hecz5ms0fl3722a9quwcvyre33z89efmqd52wrd",
+                "delegator_address": "terra1mxtnkvp78fwg77yuzgraltv8an826wffnfrcep",
+                "validator_address": "terravaloper1mxtnkvp78fwg77yuzgraltv8an826wffnx09fj",
+                "pubkey": "terravalconspub1zcjduepqrs3acqjmqwfg58sfwp3rncucfzw2ks6hwrp9984sn0rqy97qg6fsu0mewk",
                 "value": {
-                  "denom": "luna",
+                  "denom": "mluna",
                   "amount": "100000000"
                 }
               }
@@ -295,12 +320,12 @@
             {
               "pub_key": {
                 "type": "tendermint/PubKeySecp256k1",
-                "value": "AhPvXJdUJ2JIhmAGEgXvKnjSSPDBFtM46qeE1K0DcDOY"
+                "value": "Aln49nN/XLfhILdlPlFwinM50g6z65iHmPa9/kkqaNZT"
               },
-              "signature": "sBDcROc7xVxzpkH9Ob2+tK5v29m3YPqjwjphEMNcvYx8nHhTUB3V0/ZJEISQU+HdGofqxReuJXr7aHmTmOmsuA=="
+              "signature": "6sX616Xc6DsSVWTJpg+LvclqAcAs0dYBoUQmJXurRyllKLkXKPKKCNLu2QWPvDPqLS5+QAaKo0RJW1KMBzmKgA=="
             }
           ],
-          "memo": "ae1148ac83b25499cad11e97b6e016997f3580c5@10.10.3.65:26656"
+          "memo": "0ccb17c09ba090ff3ec65370d5bc20496733365c@10.10.3.65:26656"
         }
       },
       {
@@ -322,11 +347,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "terra1q3mrtxqtntrxyyvdzn65f9cmzwl8na5yplgyd3",
-                "validator_address": "terravaloper1q3mrtxqtntrxyyvdzn65f9cmzwl8na5ypsyeaz",
-                "pubkey": "terravalconspub1zcjduepqzem67whk749d869mzvchp4darl4ep762u0ckrrkcngeul36hwm3qqxnam8",
+                "delegator_address": "terra1l7d532ykhz5t0w585yudexhwqzx652802dcrlu",
+                "validator_address": "terravaloper1l7d532ykhz5t0w585yudexhwqzx652802z5700",
+                "pubkey": "terravalconspub1zcjduepqxpnqtj8rh07phm9j44fsvhwn8v8a99whzmk8u6xyswnxvasntxcqtjzy6g",
                 "value": {
-                  "denom": "luna",
+                  "denom": "mluna",
                   "amount": "100000000"
                 }
               }
@@ -340,12 +365,12 @@
             {
               "pub_key": {
                 "type": "tendermint/PubKeySecp256k1",
-                "value": "AswqFCe0a9dAcsUhPGPhQ3l7qP+4M0Dq+zGnNDY2eyKS"
+                "value": "AmlgH7lA22y0XGlbEt3sBF4Hedjvf1L3dwlm4DqXkRpf"
               },
-              "signature": "PZOdffUJEy92EnVlglXX0hFm8K+csYgZLbaRaOL94UhSGp0e+j7HP+BaU55Kizwd9HuNAFMfyvjLGkn2Cm0e2w=="
+              "signature": "r6C5Ajal28wAfhCwTiCfni0hQ6ysY8AuTpKOm/ZF2CdLJadH741WmhmehGzDyTsm33JNXY6rxwR/852EeMS1Ww=="
             }
           ],
-          "memo": "ad4bfda34393eb8cb3748e211b324ab9c85b8a0b@10.10.1.106:26656"
+          "memo": "bdc31fa9548017a1071342b59ce8a674c5a13834@10.10.1.106:26656"
         }
       },
       {
@@ -367,11 +392,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "terra1u2hn552ycvv3acvv9t7a5skzyn3nup9y72lm6w",
-                "validator_address": "terravaloper1u2hn552ycvv3acvv9t7a5skzyn3nup9y79nx2a",
-                "pubkey": "terravalconspub1zcjduepqmkywpzqnp2gl0fqruyzfw2dvxqrhezctgva9k3urnk9hme4zcatsteunku",
+                "delegator_address": "terra1p288hlfj6ls3p7e5r7lnpslzc0j0kus8s88y6e",
+                "validator_address": "terravaloper1p288hlfj6ls3p7e5r7lnpslzc0j0kus8sgte22",
+                "pubkey": "terravalconspub1zcjduepq8qwmmd67lhqeaclf7hpsc94qp30g5lz0s66sqpg27kmmjhapk7mschqjhc",
                 "value": {
-                  "denom": "luna",
+                  "denom": "mluna",
                   "amount": "100000000"
                 }
               }
@@ -385,12 +410,12 @@
             {
               "pub_key": {
                 "type": "tendermint/PubKeySecp256k1",
-                "value": "A1dRZHNg+9dAWya3ZBAL0kiRpeqHmP4y2P7sak3RmC+1"
+                "value": "A2VDtbRAwThF2WGRaGF0ZewQTBvyRF6F/fSzHlEeziKS"
               },
-              "signature": "y7Ey4uBOxWzG3wv7CUu1kp6xenQZ57Jzd48APCp1NjAdBzWgq4GJiUTIjLNtM3b3EspQHz7CjaSr/kLfRhpLVQ=="
+              "signature": "aKkmAADnOM1tX3j5Fn2RtDXhizfIeYAciCAdvWstgUw18ZvwVq6qPX1SUnkjcdI+AvysFgr0JGlt4VC21mLOPg=="
             }
           ],
-          "memo": "987ce402b5456650df3f550c67e5bc66bfb870cb@10.10.2.92:26656"
+          "memo": "8e47e39d5300d306359f0e0299d974c999e6158b@10.10.2.204:26656"
         }
       }
     ]
