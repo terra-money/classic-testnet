@@ -1,5 +1,5 @@
 # Terra Networks
-![banner](./terra-network.png)
+![banner](./terra-networks.png)
 
 This repo collects the genesis and configuration files for the various Terra networks (including Soju testnet and Columbus mainnet). 
 It exists so the [Core repository](https://github.com/terra-project/core) repo does not get bogged down with large genesis files and status updates.
