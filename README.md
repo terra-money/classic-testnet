@@ -15,6 +15,12 @@ To get started with the latest testnet, see the
 
 ## Testnet Status
 
+
+### *April 4, 2019 04:00 UTC* - Soju-0006
+
+- `soju--0006` Launching Soju-0006
+- cosmos 0.32.0 based
+
 ### *January 8, 2018 04:00 UTC* - Soju-0005
 
 - `soju--0005` Launching Soju-0005
