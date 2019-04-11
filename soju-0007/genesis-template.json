@@ -1,6 +1,6 @@
 {
   "genesis_time": "2019-04-11T05:48:31.551641549Z",
-  "chain_id": "test-chain-rpAhkd",
+  "chain_id": "soju-0007",
   "consensus_params": {
     "block_size": {
       "max_bytes": "22020096",
