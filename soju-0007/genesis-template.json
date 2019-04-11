@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2019-04-11T05:48:31.551641549Z",
+  "genesis_time": "2019-04-11T06:50:54.776608Z",
   "chain_id": "soju-0007",
   "consensus_params": {
     "block_size": {
@@ -19,43 +19,15 @@
   "app_state": {
     "accounts": [
       {
-        "address": "terra166kcsgy2v0693zwzln2lggmzadanhqpmcuwska",
-        "coins": [
-          {
-            "denom": "mluna",
-            "amount": "1000000000000"
-          }
-        ],
-        "sequence_number": "0",
-        "account_number": "0",
-        "original_vesting": null,
-        "delegated_free": null,
-        "delegated_vesting": null,
-        "start_time": "0",
-        "end_time": "0"
-      },
-      {
-        "address": "terra1wg2mlrxdmnnkkykgqg4znky86nyrtc45q336yv",
-        "coins": [
-          {
-            "denom": "mluna",
-            "amount": "1000000000000"
-          }
-        ],
-        "sequence_number": "0",
-        "account_number": "0",
-        "original_vesting": null,
-        "delegated_free": null,
-        "delegated_vesting": null,
-        "start_time": "0",
-        "end_time": "0"
-      },
-      {
         "address": "terra15pc5nflgntuupf72gs5dvl0szdz2ka07r33khu",
         "coins": [
           {
             "denom": "mluna",
-            "amount": "1000000000000"
+            "amount": "10000000000000000"
+          },
+          {
+            "denom": "msdr",
+            "amount": "100000000000000"
           }
         ],
         "sequence_number": "0",
@@ -71,7 +43,11 @@
         "coins": [
           {
             "denom": "mluna",
-            "amount": "1000000000000"
+            "amount": "10000000000000000"
+          },
+          {
+            "denom": "msdr",
+            "amount": "100000000000000"
           }
         ],
         "sequence_number": "0",
@@ -83,11 +59,39 @@
         "end_time": "0"
       },
       {
-        "address": "terra1esy08cjxdtpktrype42hhd0ysl5gj2q03795ze",
+        "address": "terra12c5s58hnc3c0pjr5x7u68upsgzg2r8fwq5nlsy",
         "coins": [
           {
+            "denom": "mcny",
+            "amount": "10000000000000000"
+          },
+          {
+            "denom": "meur",
+            "amount": "10000000000000000"
+          },
+          {
+            "denom": "mgbp",
+            "amount": "10000000000000000"
+          },
+          {
+            "denom": "mjpy",
+            "amount": "10000000000000000"
+          },
+          {
+            "denom": "mkrw",
+            "amount": "10000000000000000"
+          },
+          {
             "denom": "mluna",
-            "amount": "1000000000000"
+            "amount": "10000000000000000"
+          },
+          {
+            "denom": "msdr",
+            "amount": "1000000000000000000"
+          },
+          {
+            "denom": "musd",
+            "amount": "10000000000000000"
           }
         ],
         "sequence_number": "0",
@@ -99,11 +103,35 @@
         "end_time": "0"
       },
       {
-        "address": "terra1fdzktyqyq5gq0sspn5hk9zd0ef348pjx3euacw",
+        "address": "terra1wg2mlrxdmnnkkykgqg4znky86nyrtc45q336yv",
         "coins": [
           {
             "denom": "mluna",
-            "amount": "1000000000000"
+            "amount": "10000000000000000"
+          },
+          {
+            "denom": "msdr",
+            "amount": "100000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra166kcsgy2v0693zwzln2lggmzadanhqpmcuwska",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000000000"
+          },
+          {
+            "denom": "msdr",
+            "amount": "100000000000000"
           }
         ],
         "sequence_number": "0",
