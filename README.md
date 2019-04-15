@@ -4,9 +4,9 @@
 This repo collects the genesis and configuration files for the various Terra networks (including Soju testnet and Columbus mainnet). 
 It exists so the [Core repository](https://github.com/terra-project/core) does not get bogged down with large genesis files and status updates.
 
-**latest seed**: 2deb29acdd8411ae52bc7c2fb7968f6505f85bcf@soju.terra.money:26656
+**latest seed**: 1ae9483ead15883f71637046c66d3bf45a6d962c@52.199.205.208:26656
 
-**faucet account**: terra1nk5lsuvy0rcfjcdr8au8za0wq25rat0qa07p6t
+**faucet account**: terra12c5s58hnc3c0pjr5x7u68upsgzg2r8fwq5nlsy
 
 ## Getting Started
 
@@ -14,6 +14,12 @@ To get started with the latest testnet, see the
 [docs](https://github.com/terra-project/core/docs/README.md).
 
 ## Testnet Status
+
+### *April 11, 2019 04:00 UTC* - Soju-0007
+
+- `soju--0007` Launching Soju-0007
+- cosmos 0.33.0 based
+- terra 0.0.7 based
 
 
 ### *April 4, 2019 04:00 UTC* - Soju-0006
