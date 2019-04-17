@@ -1,4 +1,5 @@
 [
-  "terra1wg2mlrxdmnnkkykgqg4znky86nyrtc45q336yv", "terra1sym8gyehrdsm03vdc44rg9sflg8zeuqwfd3384"
+  "terra1wg2mlrxdmnnkkykgqg4znky86nyrtc45q336yv", /* Terraform Labs Validator */
+  "terra1sym8gyehrdsm03vdc44rg9sflg8zeuqwfd3384", /* Syncnode */ 
 ]
 
