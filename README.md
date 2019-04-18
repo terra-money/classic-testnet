@@ -11,7 +11,7 @@ It exists so the [Core repository](https://github.com/terra-project/core) does n
 ## Getting Started
 
 To get started with the latest testnet, see the
-[docs](https://github.com/terra-project/core/docs/README.md).
+[docs](https://docs.terra.money/guide/deploy-testnet).
 
 ## Testnet Status
 
