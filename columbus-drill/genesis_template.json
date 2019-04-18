@@ -436,35 +436,35 @@
         "end_time": "0"
       },
       {
-        "address": "terra12c5s58hnc3c0pjr5x7u68upsgzg2r8fwq5nlsy",
+        "address": "terra1txg54h0a38w77zce55eng4fk8p4ssxa5l7fdxl",
         "coins": [
           {
             "denom": "mcny",
-            "amount": "10000000000"
+            "amount": "100000000000000"
           },
           {
             "denom": "mgbp",
-            "amount": "10000000000"
+            "amount": "100000000000000"
           },
           {
             "denom": "mjpy",
-            "amount": "10000000000"
+            "amount": "100000000000000"
           },
           {
             "denom": "mkrw",
-            "amount": "10000000000"
+            "amount": "100000000000000"
           },
           {
             "denom": "mluna",
-            "amount": "10000000000"
+            "amount": "100000000000000"
           },
           {
             "denom": "msdr",
-            "amount": "10000000000"
+            "amount": "100000000000000"
           },
           {
             "denom": "musd",
-            "amount": "10000000000"
+            "amount": "100000000000000"
           }
         ],
         "sequence_number": "0",
