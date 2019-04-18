@@ -1,0 +1,45 @@
+{
+  "type": "auth\/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk\/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "Castlenode",
+            "identity": "",
+            "website": "",
+            "details": ""
+          },
+          "commission": {
+            "rate": "0.150000000000000000",
+            "max_rate": "0.300000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "terra1uxl5thq5lzgfwk9rc4z9zl9tenusc2vv7dk3yg",
+          "validator_address": "terravaloper1uxl5thq5lzgfwk9rc4z9zl9tenusc2vv7z6v5m",
+          "pubkey": "terravalconspub1zcjduepqvytpm6wjyyhqdq9y95pkhju9k4y9xcnjs744e76vys00nu9utt0q0wzfwy",
+          "value": {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": null,
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint\/PubKeySecp256k1",
+          "value": "AuhOG28DaJrELA0rihV06wc2pDYmaVhfHqR1tYMfubGP"
+        },
+        "signature": "SC9IskN2isSpOjLV11ioWdtpRLygY45XIV6DwO2LjigeGhJwVh8ideMVQB1ADiuwLtn5PL7\/jiQGy225kjKacw=="
+      }
+    ],
+    "memo": "44ceda7ddbe8086a9fbd33b48448bb62134443b1@77.87.108.29:26656"
+  }
+}
