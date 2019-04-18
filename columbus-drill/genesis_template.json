@@ -1,14 +1,14 @@
 {
-  "genesis_time": "2019-04-18T09:13:05.823119Z",
+  "genesis_time": "2019-04-18T19:00:00Z",
   "chain_id": "columbus-drill",
   "consensus_params": {
     "block": {
-      "max_bytes": "22020096",
+      "max_bytes": "20000000",
       "max_gas": "-1",
       "time_iota_ms": "1000"
     },
     "evidence": {
-      "max_age": "100000"
+      "max_age": "1000000"
     },
     "validator": {
       "pub_key_types": [
@@ -491,7 +491,7 @@
     },
     "staking": {
       "pool": {
-        "not_bonded_tokens": "260000000000",
+        "not_bonded_tokens": "386000000000",
         "bonded_tokens": "0"
       },
       "params": {
