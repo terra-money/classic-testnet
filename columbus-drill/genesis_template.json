@@ -491,7 +491,7 @@
     },
     "staking": {
       "pool": {
-        "not_bonded_tokens": "386000000000",
+        "not_bonded_tokens": "0",
         "bonded_tokens": "0"
       },
       "params": {
