@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2019-04-18T19:00:00Z",
+  "genesis_time": "2019-04-19T04:00:00Z",
   "chain_id": "columbus-drill",
   "consensus_params": {
     "block": {

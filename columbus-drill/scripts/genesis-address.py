@@ -58,7 +58,6 @@ def process_raw_genesis(genesis, addressBook):
         i+=1
 
     genesis['app_state']['accounts'] = accounts
-    genesis['app_state']['staking']['pool']['not_bonded_tokens'] = str(int(initialAmount) * len(addressBook))
 
     return genesis
 
