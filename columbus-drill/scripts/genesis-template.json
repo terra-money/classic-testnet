@@ -1,0 +1,146 @@
+{
+  "genesis_time": "2019-04-18T08:15:15.871946Z",
+  "chain_id": "columbus-drill",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "accounts": null,
+    "auth": {
+      "collected_fees": [],
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "staking": {
+      "pool": {
+        "not_bonded_tokens": "0",
+        "bonded_tokens": "0"
+      },
+      "params": {
+        "unbonding_time": "259200000000000",
+        "max_validators": 100,
+        "max_entries": 7,
+        "bond_denom": "mluna"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "distr": {
+      "fee_pool": {
+        "community_pool": []
+      },
+      "community_tax": "0.000000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "treasury": {
+      "params": {
+        "tax_policy": {
+          "rate_min": "0.000500000000000000",
+          "rate_max": "0.010000000000000000",
+          "cap": {
+            "denom": "msdr",
+            "amount": "1000000"
+          },
+          "change_max": "0.000250000000000000"
+        },
+        "reward_policy": {
+          "rate_min": "0.050000000000000000",
+          "rate_max": "0.200000000000000000",
+          "cap": {
+            "denom": "unused",
+            "amount": "0"
+          },
+          "change_max": "0.025000000000000000"
+        },
+        "seigniorage_burden_target": "0.670000000000000000",
+        "mining_increment": "1.070000000000000000",
+        "window_short": "4",
+        "window_long": "52",
+        "window_probation": "12",
+        "oracle_share": "0.100000000000000000",
+        "budget_share": "0.900000000000000000"
+      },
+      "tax_rate": "0.001000000000000000",
+      "reward_weight": "0.050000000000000000"
+    },
+    "budget": {
+      "params": {
+        "active_threshold": "0.100000000000000000",
+        "legacy_threshold": "0.000000000000000000",
+        "vote_period": "518400",
+        "deposit": {
+          "denom": "msdr",
+          "amount": "100000000"
+        }
+      }
+    },
+    "oracle": {
+      "params": {
+        "vote_period": "180",
+        "vote_threshold": "0.670000000000000000",
+        "drop_threshold": "10",
+        "oracle_reward_band": "0.010000000000000000"
+      }
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "stake",
+        "amount": "1000"
+      }
+    },
+    "slashing": {
+      "params": {
+        "max_evidence_age": "120000000000",
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "market": {
+      "params": {
+        "daily_swap_limit": "0.010000000000000000"
+      }
+    },
+    "gentxs": null
+  }
+}

@@ -1,0 +1,603 @@
+{
+  "genesis_time": "2019-04-18T09:13:05.823119Z",
+  "chain_id": "columbus-drill",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "accounts": [
+      {
+        "address": "terra1wg2mlrxdmnnkkykgqg4znky86nyrtc45q336yv",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "126000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1sym8gyehrdsm03vdc44rg9sflg8zeuqwfd3384",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "1",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1fgtwwmfserhr4jwggn9qzmw3295wh8g42utx0t",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "2",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra17ynkw3pcuhmz4x8z4qvl4qakauxuxenx3urhgt",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "3",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1khfcg09plqw84jxy5e7fj6ag4s2r9wqsg5jt4x",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "4",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1jyjg55hzsh0f4xymy0kuuan30pp4q75ru0h35c",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "5",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra16aj9azcar58hg5lgmrfap6f8dm5sdhp5zr0f0n",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "6",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1ne9kd2c4y6ap5ujkgh6r6s7q76t53xnxmclsnf",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "7",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra10993luwlar59q7syh7t3hhk0kmtee645vs3kev",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "8",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1jnumgxn6gm0aee9gvzxceymv7nhjjpz7gqkhus",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "9",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra18tmu0lrfsdvke8e3a3jsd7fq2rs29krfhthxrj",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "10",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1fjuvyccn8hfmn5r7wc2t3kwqy09zzp6tya55yu",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "11",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1uxl5thq5lzgfwk9rc4z9zl9tenusc2vv7dk3yg",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "12",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1elcq22c93y3s9e6jq4c7extfacf6ryzyxev2c8",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "13",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1r3ljw4tmddfg6vxy3rtj4vvum94m2wejy7lwuw",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "14",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1uclv9m6xuh4m8puxd8ndwhxhf968gxyhssxdxx",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "15",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra16m9pgh3d8vrdgzhnlwwpve8n2723p4cc2urj34",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "16",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1tusfpgvjrplqg2fm7wacy4slzjmnzswcfn9puj",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "17",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1yh0pwnz953g4yafft4ya3pawr4yt4pytcqqmua",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "18",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1nvtzp6jk50q734lpvsxf84d3pezg85p8lqgnyf",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "19",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1mwad35pxn2v4fa27mjntrcuzjh5mwrjla8rdfj",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "20",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1wrc04r9lyc5wt2yk7hxae8f577n44fu6qnmgvn",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "21",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1vgzftxqpcavqejflhej2pr0s4hmwv6lj7vfgyg",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "22",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1p5mwuyx66dr7ctjlxl9ve5c6a9q43a04nsvd6z",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "23",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1zy04em022kyhzct03c27xurtgk3yazl7ecttr6",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "24",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra1d0vfj9zvxfgcm4yt4ze4u35mvhj57eg2knxyxl",
+        "coins": [
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "25",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      },
+      {
+        "address": "terra12c5s58hnc3c0pjr5x7u68upsgzg2r8fwq5nlsy",
+        "coins": [
+          {
+            "denom": "mcny",
+            "amount": "10000000000"
+          },
+          {
+            "denom": "mgbp",
+            "amount": "10000000000"
+          },
+          {
+            "denom": "mjpy",
+            "amount": "10000000000"
+          },
+          {
+            "denom": "mkrw",
+            "amount": "10000000000"
+          },
+          {
+            "denom": "mluna",
+            "amount": "10000000000"
+          },
+          {
+            "denom": "msdr",
+            "amount": "10000000000"
+          },
+          {
+            "denom": "musd",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0"
+      }
+    ],
+    "auth": {
+      "collected_fees": null,
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "100",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "staking": {
+      "pool": {
+        "not_bonded_tokens": "260000000000",
+        "bonded_tokens": "0"
+      },
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 100,
+        "max_entries": 7,
+        "bond_denom": "mluna"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "distr": {
+      "fee_pool": {
+        "community_pool": null
+      },
+      "community_tax": "0.000000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": null,
+      "previous_proposer": "",
+      "outstanding_rewards": null,
+      "validator_accumulated_commissions": null,
+      "validator_historical_rewards": null,
+      "validator_current_rewards": null,
+      "delegator_starting_infos": null,
+      "validator_slash_events": null
+    },
+    "treasury": {
+      "params": {
+        "tax_policy": {
+          "rate_min": "0.000500000000000000",
+          "rate_max": "0.010000000000000000",
+          "cap": {
+            "denom": "msdr",
+            "amount": "1000000"
+          },
+          "change_max": "0.000250000000000000"
+        },
+        "reward_policy": {
+          "rate_min": "0.050000000000000000",
+          "rate_max": "0.200000000000000000",
+          "cap": {
+            "denom": "unused",
+            "amount": "0"
+          },
+          "change_max": "0.025000000000000000"
+        },
+        "seigniorage_burden_target": "0.670000000000000000",
+        "mining_increment": "1.070000000000000000",
+        "window_short": "4",
+        "window_long": "52",
+        "window_probation": "12",
+        "oracle_share": "0.100000000000000000",
+        "budget_share": "0.900000000000000000"
+      },
+      "tax_rate": "0.001000000000000000",
+      "reward_weight": "0.050000000000000000"
+    },
+    "budget": {
+      "params": {
+        "active_threshold": "0.100000000000000000",
+        "legacy_threshold": "0.000000000000000000",
+        "vote_period": "518400",
+        "deposit": {
+          "denom": "msdr",
+          "amount": "100000000"
+        }
+      }
+    },
+    "oracle": {
+      "params": {
+        "vote_period": "180",
+        "vote_threshold": "0.500000000000000000",
+        "drop_threshold": "10",
+        "oracle_reward_band": "0.010000000000000000"
+      }
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "mluna",
+        "amount": "10000000000"
+      }
+    },
+    "slashing": {
+      "params": {
+        "max_evidence_age": "1814400000000000",
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.050000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.010000000000000000",
+        "slash_fraction_downtime": "0.000100000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "market": {
+      "params": {
+        "daily_swap_limit": "0.010000000000000000"
+      }
+    },
+    "gentxs": null
+  }
+}

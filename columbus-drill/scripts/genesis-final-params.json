@@ -1,0 +1,148 @@
+{
+    "genesis_time": "2019-04-18T19:00:00Z", 
+    "app_state": {
+        "gentxs": null, 
+        "distr": {
+            "validator_historical_rewards": [], 
+            "fee_pool": {
+                "community_pool": []
+            }, 
+            "delegator_withdraw_infos": [], 
+            "bonus_proposer_reward": "0.040000000000000000", 
+            "base_proposer_reward": "0.010000000000000000", 
+            "previous_proposer": "", 
+            "community_tax": "0.000000000000000000", 
+            "validator_current_rewards": [], 
+            "validator_slash_events": [], 
+            "withdraw_addr_enabled": true, 
+            "base_bonus_proposer_reward": "0.040000000000000000", 
+            "delegator_starting_infos": [], 
+            "validator_accumulated_commissions": [], 
+            "outstanding_rewards": []
+        }, 
+        "budget": {
+            "params": {
+                "vote_peroid": "518400", 
+                "legacy_threshold": "0.000000000000000000", 
+                "vote_period": "518400", 
+                "deposit": {
+                    "denom": "msdr", 
+                    "amount": "100000000"
+                }, 
+                "active_threshold": "0.100000000000000000"
+            }
+        }, 
+        "auth": {
+            "collected_fees": [], 
+            "params": {
+                "max_memo_characters": "256", 
+                "sig_verify_cost_secp256k1": "1000", 
+                "tx_size_cost_per_byte": "10", 
+                "sig_verify_cost_ed25519": "590", 
+                "tx_sig_limit": "100"
+            }
+        }, 
+        "oracle": {
+            "params": {
+                "oracle_reward_band": "0.010000000000000000", 
+                "vote_threshold": "0.500000000000000000", 
+                "vote_period": "180", 
+                "drop_threshold": "10"
+            }
+        }, 
+        "market": {
+            "params": {
+                "daily_swap_limit": "0.010000000000000000"
+            }
+        }, 
+        "accounts": null, 
+        "slashing": {
+            "missed_blocks": {}, 
+            "signing_infos": {}, 
+            "params": {
+                "slash_fraction_double_sign": "0.010000000000000000", 
+                "max_evidence_age": "1814400000000000", 
+                "min_signed_per_window": "0.050000000000000000", 
+                "slash_fraction_downtime": "0.000100000000000000", 
+                "signed_blocks_window": "10000", 
+                "downtime_jail_duration": "600000000000"
+            }
+        }, 
+        "treasury": {
+            "tax_rate": "0.001000000000000000", 
+            "params": {
+                "window_long": "52", 
+                "budget_share": "0.900000000000000000", 
+                "reward_policy": {
+                    "change_max": "0.025000000000000000", 
+                    "cap": {
+                        "denom": "unused", 
+                        "amount": "0"
+                    }, 
+                    "rate_min": "0.050000000000000000", 
+                    "rate_max": "0.200000000000000000"
+                }, 
+                "oracle_share": "0.100000000000000000", 
+                "tax_policy": {
+                    "change_max": "0.000250000000000000", 
+                    "cap": {
+                        "denom": "msdr", 
+                        "amount": "1000000"
+                    }, 
+                    "rate_min": "0.000500000000000000", 
+                    "rate_max": "0.010000000000000000"
+                }, 
+                "window_short": "4", 
+                "window_probation": "12", 
+                "seigniorage_burden_target": "0.670000000000000000", 
+                "mining_increment": "1.070000000000000000"
+            }, 
+            "reward_weight": "0.050000000000000000"
+        }, 
+        "staking": {
+            "last_total_power": "0", 
+            "params": {
+                "max_entries": 7, 
+                "max_validators": 100, 
+                "unbonding_time": "1814400000000000", 
+                "bond_denom": "mluna"
+            }, 
+            "last_validator_powers": null, 
+            "delegations": null, 
+            "validators": null, 
+            "unbonding_delegations": null, 
+            "redelegations": null, 
+            "pool": {
+                "not_bonded_tokens": "0", 
+                "bonded_tokens": "0"
+            }, 
+            "exported": false
+        }, 
+        "crisis": {
+            "constant_fee": {
+                "denom": "mluna", 
+                "amount": "10000000000"
+            }
+        }, 
+        "bank": {
+            "send_enabled": true
+        }
+    }, 
+    "app_hash": "", 
+    "chain_id": "columbus-drill", 
+    "consensus_params": {
+        "validator": {
+            "pub_key_types": [
+                "ed25519"
+            ]
+        }, 
+        "block": {
+            "time_iota_ms": "1000", 
+            "max_bytes": "20000000", 
+            "max_gas": "-1"
+        }, 
+        "evidence": {
+            "max_age": "100000"
+        }
+    }
+}
