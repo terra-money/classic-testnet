@@ -1,0 +1,8 @@
+{"type":"auth/StdTx","value":{"msg":[{"type":"cosmos-sdk/MsgCreateValidator","value":{"description":{"moniker":"booyoun","i
+dentity":"","website":"","details":""},"commission":{"rate":"0.100000000000000000","max_rate":"0.200000000000000000","max_c
+hange_rate":"0.100000000000000000"},"min_self_delegation":"1","delegator_address":"terra16aj9azcar58hg5lgmrfap6f8dm5sdhp5zr
+0f0n","validator_address":"terravaloper16aj9azcar58hg5lgmrfap6f8dm5sdhp5zvr5lq","pubkey":"terravalconspub1zcjduepq87mymjhuw
+0hehettje80nsg9tmza83ygnpfc6e432nle04fwsnrs89ukcw","value":{"denom":"mluna","amount":"10000000000"}}}],"fee":{"amount":null
+,"gas":"200000"},"signatures":[{"pub_key":{"type":"tendermint/PubKeySecp256k1","value":"An2q3eRZSLdT1Rw8njArrHVMS4/QtPRDKbw
+E8/2PhTUQ"},"signature":"axkZeiSf/HjGEEuwjCBb7AqE7HkqcwQ/fEeva42cKgN7D3qOvVuxVN+MZbLaQu71v6QdBf+rhu1koPrxHQCTJg=="}],"memo"
+:"dc2cccdd077ecbed9a610014ae2522cb34c7c1bd@0.0.0.0:26656"}}
