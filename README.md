@@ -17,7 +17,7 @@ To get started with the latest testnet, see the
 
 ## Testnet Status
 
-### *April 19, 2019 07:00 UTC* - Coju-0007
+### *April 19, 2019 07:00 UTC* - Columbus-drill
 
 - `columbus-drill` Launching Columbus-drill
 - cosmos 0.34.0 based
