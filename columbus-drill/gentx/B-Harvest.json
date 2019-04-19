@@ -1,0 +1,45 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [
+      {
+        "type": "cosmos-sdk/MsgCreateValidator",
+        "value": {
+          "description": {
+            "moniker": "B-Harvest",
+            "identity": "8957C5091FBF4192",
+            "website": "https://bharvest.io/en/",
+            "details": ""
+          },
+          "commission": {
+            "rate": "0.100000000000000000",
+            "max_rate": "0.300000000000000000",
+            "max_change_rate": "0.010000000000000000"
+          },
+          "min_self_delegation": "1",
+          "delegator_address": "terra16m9pgh3d8vrdgzhnlwwpve8n2723p4cc2urj34",
+          "validator_address": "terravaloper16m9pgh3d8vrdgzhnlwwpve8n2723p4cc2n00px",
+          "pubkey": "terravalconspub1zcjduepqulg49pas59svr2ze9azu6h0guzgdty34gcczj0m5nq8muuwlt0kqhr4e9h",
+          "value": {
+            "denom": "mluna",
+            "amount": "8000000000"
+          }
+        }
+      }
+    ],
+    "fee": {
+      "amount": null,
+      "gas": "200000"
+    },
+    "signatures": [
+      {
+        "pub_key": {
+          "type": "tendermint/PubKeySecp256k1",
+          "value": "A+cyk3yN/rFYbyX0r5tIac3lbSAZaruzgNabqEdkcH8K"
+        },
+        "signature": "vS012Lxpq7GmE99sVr9FV8kOGj0byZ92E4738G9LOsFYCJvK6nungOJHoWdJgIG4A4wAgfGYCvClF+9ARybffQ=="
+      }
+    ],
+    "memo": "1a3e00ffd9d3fc90b855a6c1e1b093a4e121d5aa@0.0.0.0:26656"
+  }
+}
