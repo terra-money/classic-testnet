@@ -6,7 +6,7 @@ It exists so the [Core repository](https://github.com/terra-project/core) does n
 
 
 
-**latest seed**: preparing
+**latest seed**: ebca6b5d3cc2da9dfdfe4b1c045043fce686f143@54.65.207.75:26656
 
 **faucet account**: terra12c5s58hnc3c0pjr5x7u68upsgzg2r8fwq5nlsy
 
