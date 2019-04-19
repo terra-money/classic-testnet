@@ -4,7 +4,9 @@
 This repo collects the genesis and configuration files for the various Terra testnets. 
 It exists so the [Core repository](https://github.com/terra-project/core) does not get bogged down with large genesis files and status updates.
 
-**latest seed**: 1ae9483ead15883f71637046c66d3bf45a6d962c@52.199.205.208:26656
+
+
+**latest seed**: preparing
 
 **faucet account**: terra12c5s58hnc3c0pjr5x7u68upsgzg2r8fwq5nlsy
 
@@ -14,6 +16,12 @@ To get started with the latest testnet, see the
 [docs](https://docs.terra.money/guide/deploy-testnet).
 
 ## Testnet Status
+
+### *April 19, 2019 07:00 UTC* - Coju-0007
+
+- `columbus-drill` Launching Columbus-drill
+- cosmos 0.34.0 based
+- terra 0.1.0-rc0 based
 
 ### *April 11, 2019 04:00 UTC* - Soju-0007
 
