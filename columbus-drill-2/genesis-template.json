@@ -1,5 +1,5 @@
 {
-    "genesis_time": "2019-04-21T10:40:00Z", 
+    "genesis_time": "2019-04-21T11:50:00Z", 
     "app_hash": "", 
     "app_state": {
         "gentxs": null, 
@@ -239,7 +239,7 @@
         }, 
         "crisis": {
             "constant_fee": {
-                "denom": "mluna", 
+                "denom": "uluna", 
                 "amount": "10000000000"
             }
         }, 
