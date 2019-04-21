@@ -1,0 +1,582 @@
+{
+  "genesis_time": "2019-04-21T10:50:00.000000Z",
+  "chain_id": "columbus-drill-2",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "accounts": [
+      {
+        "address": "terra1k9emy6qr5ervv4ktdkq5vx9u0982mh8789pdet",
+        "coins": [
+          {
+            "denom": "uluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "1",
+        "vesting_schedules": {}
+      },
+      {
+        "address": "terra1haysyn2aajkn6t73jh48ye28hr45ch2a834s3p",
+        "coins": [
+          {
+            "denom": "uluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "1",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "1",
+        "vesting_schedules": {}
+      },
+      {
+        "address": "terra1wq2y3hmcn829pppgn487tpw5sar5p3nepu3dkk",
+        "coins": [
+          {
+            "denom": "uluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "2",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "1",
+        "vesting_schedules": {}
+      },
+      {
+        "address": "terra17665aa3vudjd4xsugx3c3zt2hvlhnp77e39rpj",
+        "coins": [
+          {
+            "denom": "uluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "3",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "1",
+        "vesting_schedules": {}
+      },
+      {
+        "address": "terra1lhahxslg4mjrf2pa9djmh9zecmnkgvg5fd9g9v",
+        "coins": [
+          {
+            "denom": "uluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "4",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "1",
+        "vesting_schedules": {}
+      },
+      {
+        "address": "terra1zlec0avuyqhzkljw4j4q4d0ht823fl9dyl5f6z",
+        "coins": [
+          {
+            "denom": "uluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "5",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "1",
+        "vesting_schedules": {}
+      },
+      {
+        "address": "terra1x3nwjurunsy9s5pvr2p2mw9qqmrwzwpm57qzh2",
+        "coins": [
+          {
+            "denom": "uluna",
+            "amount": "10000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "6",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "1",
+        "vesting_schedules": {}
+      }
+    ],
+    "auth": {
+      "collected_fees": null,
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "100",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "staking": {
+      "pool": {
+        "not_bonded_tokens": "70000000000",
+        "bonded_tokens": "0"
+      },
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 100,
+        "max_entries": 7,
+        "bond_denom": "uluna"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "distr": {
+      "fee_pool": {
+        "community_pool": null
+      },
+      "community_tax": "0.000000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": null,
+      "previous_proposer": "",
+      "outstanding_rewards": null,
+      "validator_accumulated_commissions": null,
+      "validator_historical_rewards": null,
+      "validator_current_rewards": null,
+      "delegator_starting_infos": null,
+      "validator_slash_events": null
+    },
+    "treasury": {
+      "params": {
+        "tax_policy": {
+          "rate_min": "0.000500000000000000",
+          "rate_max": "0.010000000000000000",
+          "cap": {
+            "denom": "msdr",
+            "amount": "1000000"
+          },
+          "change_max": "0.000250000000000000"
+        },
+        "reward_policy": {
+          "rate_min": "0.050000000000000000",
+          "rate_max": "0.200000000000000000",
+          "cap": {
+            "denom": "unused",
+            "amount": "0"
+          },
+          "change_max": "0.025000000000000000"
+        },
+        "seigniorage_burden_target": "0.670000000000000000",
+        "mining_increment": "1.070000000000000000",
+        "window_short": "4",
+        "window_long": "52",
+        "window_probation": "12",
+        "oracle_share": "0.100000000000000000",
+        "budget_share": "0.900000000000000000"
+      },
+      "tax_rate": "0.001000000000000000",
+      "reward_weight": "0.050000000000000000"
+    },
+    "budget": {
+      "params": {
+        "active_threshold": "0.100000000000000000",
+        "legacy_threshold": "0.000000000000000000",
+        "vote_period": "518400",
+        "deposit": {
+          "denom": "msdr",
+          "amount": "100000000"
+        }
+      }
+    },
+    "oracle": {
+      "params": {
+        "vote_period": "180",
+        "vote_threshold": "0.500000000000000000",
+        "drop_threshold": "10",
+        "oracle_reward_band": "0.010000000000000000"
+      }
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "mluna",
+        "amount": "10000000000"
+      }
+    },
+    "slashing": {
+      "params": {
+        "max_evidence_age": "1814400000000000",
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.050000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.010000000000000000",
+        "slash_fraction_downtime": "0.000100000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "market": {
+      "params": {
+        "daily_swap_limit": "0.010000000000000000"
+      }
+    },
+    "gentxs": [
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "dokwon-1",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "terra1k9emy6qr5ervv4ktdkq5vx9u0982mh8789pdet",
+                "validator_address": "terravaloper1k9emy6qr5ervv4ktdkq5vx9u0982mh8782dsfc",
+                "pubkey": "terravalconspub1zcjduepqt0x22pmsym2w0kr3ze7asqkr6s3xymjzlu923zlakc953hl7tn5s0zfx2f",
+                "value": {
+                  "denom": "uluna",
+                  "amount": "1000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A7Jq/OWqpFTGwnC8SZMis+WyBVXgrqenHxqjjZI4TeeS"
+              },
+              "signature": "Pw4A0jdJlMZ/eRbefumSOdESOVZyzFsupzEUqXkkGscrvcAtwyOkGS2FWvrUkypHlQ0DknBm+u9pv+1AkiVIUg=="
+            }
+          ],
+          "memo": "2cd41f51b33535ca12f9a271bdf31f69bd5d475f@172.18.0.1:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "pinta",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "terra1lhahxslg4mjrf2pa9djmh9zecmnkgvg5fd9g9v",
+                "validator_address": "terravaloper1lhahxslg4mjrf2pa9djmh9zecmnkgvg5fzf44l",
+                "pubkey": "terravalconspub1zcjduepq5p9mwy8aswked6h5tcdj85ax7etuse8fz6pdp97pqywjls8ksa3qzj3s0x",
+                "value": {
+                  "denom": "uluna",
+                  "amount": "10000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AowWA8i7WA/qo/0gzOhsZe24TkDEI/EN2/ubm6qpkFRx"
+              },
+              "signature": "NG5tqVsgqJAeMVNtjvL1PrDEezaLiM8r6kaKYv/IRRkbHbfOizS72LRVyXBhQ7ImiS4KUQvq7FQf0jVz/3WFfw=="
+            }
+          ],
+          "memo": "010242a714dd9d40abbb99daf3d8494307e5af25@10.33.19.101:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "gazua",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "terra1wq2y3hmcn829pppgn487tpw5sar5p3nepu3dkk",
+                "validator_address": "terravaloper1wq2y3hmcn829pppgn487tpw5sar5p3nepnasx9",
+                "pubkey": "terravalconspub1zcjduepq4el7eval99ma4e76x7ye9vw5s6dghelkuqtaf3jphpjsa08f4fjqap4css",
+                "value": {
+                  "denom": "uluna",
+                  "amount": "5000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A2SLa31b/YXQOgMj6Syn6BR496lG/Dne7PwLYgaKeHsg"
+              },
+              "signature": "QsieUkeF7DJhwy2ij+4phz1EFBKIKpns+VUbQw0F8ktEzsWbCPpPqgGVW7bYAIAZ26TKI7Gx7xOz2ORxQJz7ew=="
+            }
+          ],
+          "memo": "1982d43b7270fdef37527f8f0b638afd7b1b67dc@172.16.28.28:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "nina",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "terra17665aa3vudjd4xsugx3c3zt2hvlhnp77e39rpj",
+                "validator_address": "terravaloper17665aa3vudjd4xsugx3c3zt2hvlhnp77e7f73p",
+                "pubkey": "terravalconspub1zcjduepqca5jtk0re6uuw52a85mfgxdcnh25y2qn8d0rsh6qel7aqsmux3mqakrz09",
+                "value": {
+                  "denom": "uluna",
+                  "amount": "10000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A4GcfPHPMnNt4mp53WcMNMa1gjkh3mtcWnEfEe9KUn82"
+              },
+              "signature": "bGkLiykFV6zC+7dhPGTIAEkBhAEoR2L/NWBKTSP9c2xx6RmeQCQbKUwM3XGV2N0pe3wf5VVqcDQXhFQIlEAVog=="
+            }
+          ],
+          "memo": "92365a9373d77e1503fdbc2ed24e3d0a441382e7@10.46.12.31:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "node_0",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "terra1haysyn2aajkn6t73jh48ye28hr45ch2a834s3p",
+                "validator_address": "terravaloper1haysyn2aajkn6t73jh48ye28hr45ch2a87edpj",
+                "pubkey": "terravalconspub1zcjduepqrgj3nhusdamsnp3389nvu7w2tehx3g95mm3ckerw9w7up0wd8wqqvurnmv",
+                "value": {
+                  "denom": "uluna",
+                  "amount": "5000000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AmyRwDGBA1R6wfJfPJgYelu6qoQBkjLMn4W4tYtCBnIL"
+              },
+              "signature": "26g+/Fx9fCahl4A0+a3Zo9R4Sg54f/yi36t4937xn9EQz2vl7k8kNHGuSwT2viQ1NiPoRtnH/cbaDxIsSp5K3A=="
+            }
+          ],
+          "memo": "ca5f3af708826f18b372f52d135f11df8c1f50fd@172.16.28.28:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "desyncio-0",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "terra1zlec0avuyqhzkljw4j4q4d0ht823fl9dyl5f6z",
+                "validator_address": "terravaloper1zlec0avuyqhzkljw4j4q4d0ht823fl9dysc523",
+                "pubkey": "terravalconspub1zcjduepqhyhd6298jfvvf0sxuaerzxufvl93nlrjcepu923e3q340jryu3dsdnvdst",
+                "value": {
+                  "denom": "uluna",
+                  "amount": "100000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "AvLv1skqoQDOzu398YElMAMXeJwm3GwWwHttUgjnKmqr"
+              },
+              "signature": "W68rs89sxtJ3Q+F7OEFq2v/SZlSpk/RoROAz5TekM3oFmjaiOIlczXfWTimqxWubjZLSd3BtyaZXH51HKjK5Gg=="
+            }
+          ],
+          "memo": "4f8ff9354770f2a7310e95aa19cb375997aa8168@10.10.1.96:26656"
+        }
+      },
+      {
+        "type": "auth/StdTx",
+        "value": {
+          "msg": [
+            {
+              "type": "cosmos-sdk/MsgCreateValidator",
+              "value": {
+                "description": {
+                  "moniker": "desyncio-1",
+                  "identity": "",
+                  "website": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "terra1x3nwjurunsy9s5pvr2p2mw9qqmrwzwpm57qzh2",
+                "validator_address": "terravaloper1x3nwjurunsy9s5pvr2p2mw9qqmrwzwpm53vl8e",
+                "pubkey": "terravalconspub1zcjduepqfc6wfwp29zgcd89may902nqmc3ghzynedcftqd0n0dvqrvp85vaqffzk4e",
+                "value": {
+                  "denom": "uluna",
+                  "amount": "100000000"
+                }
+              }
+            }
+          ],
+          "fee": {
+            "amount": null,
+            "gas": "200000"
+          },
+          "signatures": [
+            {
+              "pub_key": {
+                "type": "tendermint/PubKeySecp256k1",
+                "value": "A+wdoCN+RqVvn6Daqe3Sv0bdpbu83iLh1K4MODUpnWly"
+              },
+              "signature": "ygE73XmHe4FEsxiIAPR/b3/+CkLs0PGaibGT2zTZ1HJHN6OD6SJUyfxY97BOs270NOSo86NdRMNC6J0Lv/0AAw=="
+            }
+          ],
+          "memo": "8de196585a8e446d8f07cec0b78da6f6b5ba90c9@10.10.2.60:26656"
+        }
+      }
+    ]
+  }
+}

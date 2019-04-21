@@ -34,7 +34,7 @@ def process_raw_genesis(genesis, addressBook):
     initialAmount = "10000000000"
     initialDenom = "uluna"
 
-    timeForTenMinutes = 60 * 10
+    # timeForTenMinutes = 60 * 10
 
     i = 0
     accounts = []

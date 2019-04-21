@@ -1,5 +1,5 @@
 {
-    "genesis_time": "2019-04-18T19:00:00Z", 
+    "genesis_time": "2019-04-21T10:40:00Z", 
     "app_hash": "", 
     "app_state": {
         "gentxs": null, 
@@ -264,5 +264,5 @@
             "max_age": "100000"
         }
     }, 
-    "chain_id": "columbus-drill"
+    "chain_id": "columbus-drill-2"
 }
