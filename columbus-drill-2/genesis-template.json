@@ -1,5 +1,5 @@
 {
-    "genesis_time": "2019-04-18T19:00:00Z", 
+    "genesis_time": "2019-04-21T11:50:00Z", 
     "app_hash": "", 
     "app_state": {
         "gentxs": null, 
@@ -239,7 +239,7 @@
         }, 
         "crisis": {
             "constant_fee": {
-                "denom": "mluna", 
+                "denom": "uluna", 
                 "amount": "10000000000"
             }
         }, 
@@ -264,5 +264,5 @@
             "max_age": "100000"
         }
     }, 
-    "chain_id": "columbus-drill"
+    "chain_id": "columbus-drill-2"
 }
