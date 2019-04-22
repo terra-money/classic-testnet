@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2019-04-18T08:15:15.871946Z",
-  "chain_id": "columbus-drill",
+  "genesis_time": "2019-04-22T15:28:54.722617Z",
+  "chain_id": "soju-0008",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -18,9 +18,89 @@
   },
   "app_hash": "",
   "app_state": {
-    "accounts": null,
+    "accounts": [
+      {
+        "address": "terra166kcsgy2v0693zwzln2lggmzadanhqpmcuwska",
+        "coins": [
+          {
+            "denom": "uluna",
+            "amount": "1000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0",
+        "vesting_schedules": null
+      },
+      {
+        "address": "terra1wg2mlrxdmnnkkykgqg4znky86nyrtc45q336yv",
+        "coins": [
+          {
+            "denom": "uluna",
+            "amount": "1000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0",
+        "vesting_schedules": null
+      },
+      {
+        "address": "terra12c5s58hnc3c0pjr5x7u68upsgzg2r8fwq5nlsy",
+        "coins": [
+          {
+            "denom": "ucny",
+            "amount": "10000000000000000"
+          },
+          {
+            "denom": "ueur",
+            "amount": "10000000000000000"
+          },
+          {
+            "denom": "ugbp",
+            "amount": "10000000000000000"
+          },
+          {
+            "denom": "ujpy",
+            "amount": "10000000000000000"
+          },
+          {
+            "denom": "ukrw",
+            "amount": "10000000000000000"
+          },
+          {
+            "denom": "uluna",
+            "amount": "10000000000000000"
+          },
+          {
+            "denom": "usdr",
+            "amount": "1000000000000000000"
+          },
+          {
+            "denom": "uusd",
+            "amount": "10000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": null,
+        "delegated_free": null,
+        "delegated_vesting": null,
+        "start_time": "0",
+        "end_time": "0",
+        "vesting_schedules": null
+      }
+    ],
     "auth": {
-      "collected_fees": [],
+      "collected_fees": null,
       "params": {
         "max_memo_characters": "256",
         "tx_sig_limit": "7",
@@ -41,7 +121,7 @@
         "unbonding_time": "259200000000000",
         "max_validators": 100,
         "max_entries": 7,
-        "bond_denom": "mluna"
+        "bond_denom": "uluna"
       },
       "last_total_power": "0",
       "last_validator_powers": null,
@@ -53,20 +133,20 @@
     },
     "distr": {
       "fee_pool": {
-        "community_pool": []
+        "community_pool": null
       },
       "community_tax": "0.000000000000000000",
       "base_proposer_reward": "0.010000000000000000",
       "bonus_proposer_reward": "0.040000000000000000",
       "withdraw_addr_enabled": true,
-      "delegator_withdraw_infos": [],
+      "delegator_withdraw_infos": null,
       "previous_proposer": "",
-      "outstanding_rewards": [],
-      "validator_accumulated_commissions": [],
-      "validator_historical_rewards": [],
-      "validator_current_rewards": [],
-      "delegator_starting_infos": [],
-      "validator_slash_events": []
+      "outstanding_rewards": null,
+      "validator_accumulated_commissions": null,
+      "validator_historical_rewards": null,
+      "validator_current_rewards": null,
+      "delegator_starting_infos": null,
+      "validator_slash_events": null
     },
     "treasury": {
       "params": {
@@ -74,7 +154,7 @@
           "rate_min": "0.000500000000000000",
           "rate_max": "0.010000000000000000",
           "cap": {
-            "denom": "msdr",
+            "denom": "usdr",
             "amount": "1000000"
           },
           "change_max": "0.000250000000000000"
@@ -105,7 +185,7 @@
         "legacy_threshold": "0.000000000000000000",
         "vote_period": "518400",
         "deposit": {
-          "denom": "msdr",
+          "denom": "usdr",
           "amount": "100000000"
         }
       }
