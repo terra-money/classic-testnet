@@ -17,49 +17,52 @@ To get started with the latest testnet, see the
 
 ## Testnet Status
 
-### *April 19, 2019 07:00 UTC* - Columbus-drill
+### *April 22, 2019 15:46 UTC* - Soju-0008
+- terra 0.1.1 based
+
+### *April 19, 2019 07:00 UTC* - Columbus-drill (retired)
 
 - `columbus-drill` Launching Columbus-drill
 - cosmos 0.34.0 based
 - terra 0.1.0-rc0 based
 
-### *April 11, 2019 04:00 UTC* - Soju-0007
+### *April 11, 2019 04:00 UTC* - Soju-0007 (retired)
 
 - `soju--0007` Launching Soju-0007
 - cosmos 0.33.0 based
 - terra 0.0.7 based
 
 
-### *April 4, 2019 04:00 UTC* - Soju-0006
+### *April 4, 2019 04:00 UTC* - Soju-0006 (retired)
 
 - `soju--0006` Launching Soju-0006
 - cosmos 0.32.0 based
 
-### *January 8, 2018 04:00 UTC* - Soju-0005
+### *January 8, 2018 04:00 UTC* - Soju-0005 (retired)
 
 - `soju--0005` Launching Soju-0005
 - cosmos 0.32.0 based
 
-### *January 8, 2018 04:00 UTC* - Soju-0004
+### *January 8, 2018 04:00 UTC* - Soju-0004 (retired)
 
 - `soju--0004` Launching Soju-0004
 - market module added
 - fauset account added
 
-### *January 7, 2018 08:00 UTC* - Soju-0003
+### *January 7, 2018 08:00 UTC* - Soju-0003 (retired)
 
 - `soju--0003` Launching Soju-0003
 - oracle, subsidy, treasury included
 
-### *December 18, 2018 03:00 UTC* - Soju-0002
+### *December 18, 2018 03:00 UTC* - Soju-0002 (retired)
 
 - `soju--0002` Launching Soju-0002
 
-### *December 5, 2018 11:40 UTC* - Terra-0001
+### *December 5, 2018 11:40 UTC* - Terra-0001 (retired)
 
 - `terra--0001` Launching Terra-0001
 
-### *November 28, 2018 23:00 UTC* - Terra-0000
+### *November 28, 2018 23:00 UTC* - Terra-0000 (retired)
 
 - `terra--0000` Launching Terra-0000
 
