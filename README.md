@@ -7,11 +7,11 @@ It exists so the [Core repository](https://github.com/terra-project/core) does n
 ## Persistent Peers
 Open $HOME/.terrad/config/config.toml and edit a line starting with `persistent_peers` as below.
 
-**soju-0009 persistent peers**
+**vodka persistent peers**
 ```
-persistent_peers = "6d20ac95f60662dbfc21dd039aa8c1cfa83f221d@106.10.45.205:26656,1e1677e4ed9acf4e28de40b67ac01554aed1a29e@52.78.69.160:26656"
+persistent_peers = "207b11829ba087f920c96ab11ec70f17b63e67ac@15.164.0.235:26656"
 ```
-- terra 0.2.0 based
+- terra 0.2.3 based
 
 ## Getting Started
 
@@ -19,6 +19,12 @@ To get started with the latest testnet, see the
 [docs](https://docs.terra.money/guide/deploy-testnet).
 
 ## Testnet Status
+
+### *Aug 19, 2019
+- soju-0009 retired
+
+### *July 26, 2019 05:20 UTC*
+- vodka started
 
 ### *April 22, 2019 15:46 UTC* - Soju-0008
 - terra 0.1.1 based
