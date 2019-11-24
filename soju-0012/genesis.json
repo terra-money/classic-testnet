@@ -18,6 +18,36 @@
   },
   "app_hash": "",
   "app_state": {
+    "crisis": {
+      "constant_fee": {
+        "denom": "uluna",
+        "amount": "1000"
+      }
+    },
+    "distribution": {
+      "fee_pool": {
+        "community_pool": []
+      },
+      "community_tax": "0.020000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "supply": {
+      "supply": []
+    },
+    "params": null,
     "treasury": {
       "params": {
         "tax_policy": {
@@ -53,18 +83,6 @@
       "SRs": [],
       "TSLs": []
     },
-    "bank": {
-      "send_enabled": true
-    },
-    "auth": {
-      "params": {
-        "max_memo_characters": "256",
-        "tx_sig_limit": "7",
-        "tx_size_cost_per_byte": "10",
-        "sig_verify_cost_ed25519": "590",
-        "sig_verify_cost_secp256k1": "1000"
-      }
-    },
     "staking": {
       "params": {
         "unbonding_time": "1814400000000000",
@@ -80,29 +98,63 @@
       "redelegations": null,
       "exported": false
     },
+    "slashing": {
+      "params": {
+        "max_evidence_age": "120000000000",
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "oracle": {
+      "params": {
+        "vote_period": "5",
+        "vote_threshold": "0.500000000000000000",
+        "reward_band": "0.020000000000000000",
+        "reward_distribution_window": "5256000",
+        "whitelist": [
+          "ukrw",
+          "usdr",
+          "uusd",
+          "umnt"
+        ],
+        "slash_fraction": "0.000100000000000000",
+        "slash_window": "100800",
+        "min_valid_per_window": "0.050000000000000000"
+      },
+      "feeder_delegations": {},
+      "exchange_rates": {},
+      "exchange_rate_prevotes": [],
+      "exchange_rate_votes": [],
+      "miss_counters": {}
+    },
     "accounts": [
       {
-        "address": "terra1h8ljdmae7lx05kjj79c9ekscwsyjd3yr8wyvdn",
+        "address": "terra1pdx498r0hrc2fj36sjhs8vuhrz9hd2cw0tmam9",
         "coins": [
           {
             "denom": "ukrw",
-            "amount": "100000000000000"
+            "amount": "1000000000000000"
           },
           {
             "denom": "uluna",
-            "amount": "100000000000000"
+            "amount": "1000000000000000"
           },
           {
             "denom": "umnt",
-            "amount": "100000000000000"
+            "amount": "1000000000000000"
           },
           {
             "denom": "usdr",
-            "amount": "100000000000000"
+            "amount": "1000000000000000"
           },
           {
             "denom": "uusd",
-            "amount": "100000000000000"
+            "amount": "1000000000000000"
           }
         ],
         "sequence_number": "0",
@@ -156,27 +208,27 @@
         ]
       },
       {
-        "address": "terra1pdx498r0hrc2fj36sjhs8vuhrz9hd2cw0tmam9",
+        "address": "terra1h8ljdmae7lx05kjj79c9ekscwsyjd3yr8wyvdn",
         "coins": [
           {
             "denom": "ukrw",
-            "amount": "1000000000000000"
+            "amount": "100000000000000"
           },
           {
             "denom": "uluna",
-            "amount": "1000000000000000"
+            "amount": "100000000000000"
           },
           {
             "denom": "umnt",
-            "amount": "1000000000000000"
+            "amount": "100000000000000"
           },
           {
             "denom": "usdr",
-            "amount": "1000000000000000"
+            "amount": "100000000000000"
           },
           {
             "denom": "uusd",
-            "amount": "1000000000000000"
+            "amount": "100000000000000"
           }
         ],
         "sequence_number": "0",
@@ -193,14 +245,14 @@
         ]
       }
     ],
-    "crisis": {
-      "constant_fee": {
-        "denom": "uluna",
-        "amount": "1000"
+    "market": {
+      "terra_pool_delta": "0.000000000000000000",
+      "params": {
+        "pool_recovery_period": "14400",
+        "base_pool": "250000000000.000000000000000000",
+        "min_spread": "0.020000000000000000",
+        "tobin_tax": "0.002500000000000000"
       }
-    },
-    "supply": {
-      "supply": []
     },
     "gov": {
       "starting_proposal_id": "1",
@@ -225,65 +277,14 @@
         "veto": "0.334000000000000000"
       }
     },
-    "oracle": {
+    "auth": {
       "params": {
-        "vote_period": "5",
-        "vote_threshold": "0.500000000000000000",
-        "reward_band": "0.020000000000000000",
-        "reward_distribution_window": "5256000",
-        "whitelist": [
-          "ukrw",
-          "usdr",
-          "uusd"
-        ],
-        "slash_fraction": "0.000100000000000000",
-        "slash_window": "100800",
-        "min_valid_per_window": "0.050000000000000000"
-      },
-      "feeder_delegations": {},
-      "exchange_rates": {},
-      "exchange_rate_prevotes": [],
-      "exchange_rate_votes": [],
-      "miss_counters": {}
-    },
-    "market": {
-      "terra_pool_delta": "0.000000000000000000",
-      "params": {
-        "pool_recovery_period": "14400",
-        "base_pool": "250000000000.000000000000000000",
-        "min_spread": "0.020000000000000000",
-        "tobin_tax": "0.002500000000000000"
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
       }
-    },
-    "slashing": {
-      "params": {
-        "max_evidence_age": "120000000000",
-        "signed_blocks_window": "100",
-        "min_signed_per_window": "0.500000000000000000",
-        "downtime_jail_duration": "600000000000",
-        "slash_fraction_double_sign": "0.050000000000000000",
-        "slash_fraction_downtime": "0.010000000000000000"
-      },
-      "signing_infos": {},
-      "missed_blocks": {}
-    },
-    "params": null,
-    "distribution": {
-      "fee_pool": {
-        "community_pool": []
-      },
-      "community_tax": "0.020000000000000000",
-      "base_proposer_reward": "0.010000000000000000",
-      "bonus_proposer_reward": "0.040000000000000000",
-      "withdraw_addr_enabled": true,
-      "delegator_withdraw_infos": [],
-      "previous_proposer": "",
-      "outstanding_rewards": [],
-      "validator_accumulated_commissions": [],
-      "validator_historical_rewards": [],
-      "validator_current_rewards": [],
-      "delegator_starting_infos": [],
-      "validator_slash_events": []
     },
     "genutil": {
       "gentxs": [
