@@ -25,6 +25,10 @@ To get started with the latest testnet, see the
 [docs](https://docs.terra.money/guide/deploy-testnet).
 
 ## Testnet Status
+### Dec 09, 2019 07:00 UTC
+- vodka-0001 live
+- vodka      retired
+
 ### Dec 04, 2019 06:00 UTC
 - soju-0013 live
 - soju-0012 retired
