@@ -17,7 +17,7 @@ persistent_peers = "1e1677e4ed9acf4e28de40b67ac01554aed1a29e@52.78.69.160:26656"
 ```
 persistent_peers = "207b11829ba087f920c96ab11ec70f17b63e67ac@15.164.0.235:26656"
 ```
-- terra 0.2.3 based
+- terra 0.3.1 based
 
 ## Getting Started
 
