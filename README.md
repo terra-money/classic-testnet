@@ -11,13 +11,13 @@ Open $HOME/.terrad/config/config.toml and edit a line starting with `persistent_
 ```
 persistent_peers = "1e1677e4ed9acf4e28de40b67ac01554aed1a29e@52.78.69.160:26656"
 ```
-- terra 0.3.0 based
+- terra 0.3.5 based
 
 **vodka persistent peers**
 ```
 persistent_peers = "207b11829ba087f920c96ab11ec70f17b63e67ac@15.164.0.235:26656"
 ```
-- terra 0.3.1 based
+- terra 0.3.5 based
 
 ## Getting Started
 
@@ -25,6 +25,10 @@ To get started with the latest testnet, see the
 [docs](https://docs.terra.money/guide/deploy-testnet).
 
 ## Testnet Status
+### April 25, 2020 04:00 UTC
+- soju-0014 live
+- soju-0013 retired
+
 ### Dec 09, 2019 07:00 UTC
 - vodka-0001 live
 - vodka      retired
