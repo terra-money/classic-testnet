@@ -1,4 +1,4 @@
-# Terra Networks
+# Terra Testnets
 ![banner](./terra-networks.png)
 
 This repo collects the genesis and configuration files for the various Terra testnets. 
