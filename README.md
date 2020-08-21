@@ -17,7 +17,7 @@ persistent_peers = "1e1677e4ed9acf4e28de40b67ac01554aed1a29e@52.78.69.160:26656"
 ```
 persistent_peers = "9ab68536fdaed15ea4377e8d9b2c56cb67057287@15.164.0.235:26656"
 ```
-- terra 0.4.0-rc.2 based
+- terra 0.4.0-rc.3 based
 
 ## Getting Started
 
@@ -25,6 +25,10 @@ To get started with the latest testnet, see the
 [docs](https://docs.terra.money/guide/deploy-testnet).
 
 ## Testnet Status
+### *Aug 21, 2020 09:00 UTC*
+- tequila-0002 live
+- tequila-0001 retired
+
 ### *July 13, 2020 08:30 UTC*
 - tequila-0001 live
 - vodka-0001 retired
