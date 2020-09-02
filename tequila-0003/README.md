@@ -7,6 +7,9 @@
 * September 3, 2020 17:00 KST, Launch Tequila-0003 network
 
 
+## How to submit Genesis Address
+Add your address line on the last part of [address.json](address.json)
+
 ## How to generate Genesis Transaction
 Download the `genesis-template`, which will be released after we gather all Genesis Accounts, and place that file to `~/.terrad/config` and execute following command. 
 ```
