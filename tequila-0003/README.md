@@ -13,7 +13,7 @@ Add your address line on the last part of [address.json](address.json) via Pull 
 ## How to generate Genesis Transaction
 Download the `genesis-template`, which will be released after we gather all Genesis Accounts, and place that file to `~/.terrad/config` and execute following command. 
 ```
-terrad gentx --name my_account --amount 10000000uluna
+terrad gentx --name my_account --amount 10000000000uluna
 ```
 
 The file will be store in `~/.terrad/config/gentx/gentx-xxxx.json`. Please upload `gentx-xxxx.json` file to [gentx](gentx) folder via Pull Request.
