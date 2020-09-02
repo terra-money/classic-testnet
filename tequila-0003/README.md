@@ -2,9 +2,9 @@
  
 ## Steps
 
-* September 2, 2020 24:00 KST, Collect Genesis Addresses
-* September 3, 2020 15:00 KST, Collect Genesis Transactions
-* September 3, 2020 17:00 KST, Launch Tequila-0003 network
+* September 3, 2020 06:00 KST, Collect Genesis Addresses
+* September 3, 2020 24:00 KST, Collect Genesis Transactions
+* September 4, 2020 15:00 KST, Launch Tequila-0003 network
 
 
 ## How to generate Genesis Transaction
