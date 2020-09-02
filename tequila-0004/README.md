@@ -1,6 +1,6 @@
 # Public Testnet for Columbus-4
  
-## Steps
+## Timelines
 
 * September 3, 2020 06:00 KST, Collect Genesis Addresses
 * September 3, 2020 09:00 KST, Release penultimate genesis
