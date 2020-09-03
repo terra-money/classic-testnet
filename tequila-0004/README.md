@@ -19,3 +19,16 @@ terrad gentx --name my_account --amount 10000000000uluna
 ```
 
 The file will be store in `~/.terrad/config/gentx/gentx-xxxx.json`. Please upload `gentx-xxxx.json` file to [gentx](gentx) folder via Pull Request.
+
+## Configuration
+### Minimum Gas Prices
+We recommend you to define gas prices in ~/.terrad/config/app.toml as below
+```
+minimum-gas-prices = "0.15uluna,0.15uusd,0.1018usdr,178.05ukrw,431.6259umnt"
+```
+
+### Seed Node
+Define seeds in ~/.terrad/config/config.toml
+```
+seeds = "b8d00ea1a68092f2963f8bfb8bf3dd7010e688f8@public-seed2.terra.dev:36656"
+```
