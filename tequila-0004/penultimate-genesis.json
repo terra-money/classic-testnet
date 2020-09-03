@@ -1,0 +1,476 @@
+{
+  "genesis_time": "2020-09-04T06:00:00Z",
+  "chain_id": "tequila-0004",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "uluna",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "86400000000000"
+      },
+      "voting_params": {
+        "voting_period": "86400000000000"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000"
+      }
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "86400000000000",
+        "max_validators": 100,
+        "max_entries": 100,
+        "historical_entries": 0,
+        "bond_denom": "uluna"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "wasm": {
+      "params": {
+        "max_contract_size": "512000",
+        "max_contract_gas": "100000000",
+        "max_contract_msg_size": "1024"
+      },
+      "last_code_id": "0",
+      "last_instance_id": "0",
+      "codes": [],
+      "contracts": []
+    },
+    "upgrade": {},
+    "market": {
+      "terra_pool_delta": "0.000000000000000000",
+      "params": {
+        "base_pool": "625000000000.000000000000000000",
+        "pool_recovery_period": "14400",
+        "min_spread": "0.005000000000000000"
+      }
+    },
+    "params": null,
+    "msgauth": {
+      "authorization_entries": []
+    },
+    "evidence": {
+      "params": {
+        "max_evidence_age": "120000000000"
+      },
+      "evidence": []
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.000000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "supply": {
+      "supply": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "uluna",
+        "amount": "1000"
+      }
+    },
+    "oracle": {
+      "params": {
+        "vote_period": "5",
+        "vote_threshold": "0.500000000000000000",
+        "reward_band": "0.020000000000000000",
+        "reward_distribution_window": "5256000",
+        "whitelist": [
+          {
+            "name": "ukrw",
+            "tobin_tax": "0.002500000000000000"
+          },
+          {
+            "name": "usdr",
+            "tobin_tax": "0.002500000000000000"
+          },
+          {
+            "name": "uusd",
+            "tobin_tax": "0.002500000000000000"
+          },
+          {
+            "name": "umnt",
+            "tobin_tax": "0.020000000000000000"
+          }
+        ],
+        "slash_fraction": "0.000100000000000000",
+        "slash_window": "100800",
+        "min_valid_per_window": "0.050000000000000000"
+      },
+      "feeder_delegations": {},
+      "exchange_rates": {},
+      "exchange_rate_prevotes": [],
+      "exchange_rate_votes": [],
+      "miss_counters": {},
+      "aggregate_exchange_rate_prevotes": [],
+      "aggregate_exchange_rate_votes": [],
+      "tobin_taxes": {}
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "100",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "type": "core/Account",
+          "value": {
+            "address": "terra1vk20anceu6h9s00d27pjlvslz3avetkvnph7p8",
+            "coins": [
+              {
+                "denom": "uluna",
+                "amount": "100000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "core/Account",
+          "value": {
+            "address": "terra14un92kpq0pvflyjd8sxmrsswglhn8mf5he0pge",
+            "coins": [
+              {
+                "denom": "uluna",
+                "amount": "10000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "core/Account",
+          "value": {
+            "address": "terra1cpw2kxfux4y2ertht2j3yt7ctvnmuhhcc0f45g",
+            "coins": [
+              {
+                "denom": "uluna",
+                "amount": "10000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "core/Account",
+          "value": {
+            "address": "terra1mduyrqpymv9tvpn80vrgdkjfnlnzdz9jnxpcpa",
+            "coins": [
+              {
+                "denom": "uluna",
+                "amount": "10000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "core/Account",
+          "value": {
+            "address": "terra1062zkmnlqhcpwsryk5kjf345x6njzzksqefzzv",
+            "coins": [
+              {
+                "denom": "uluna",
+                "amount": "10000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "core/Account",
+          "value": {
+            "address": "terra1guxk2q4wn92fw0mchx2rhsenjvq0hj9pzwrwcc",
+            "coins": [
+              {
+                "denom": "uluna",
+                "amount": "10000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "core/Account",
+          "value": {
+            "address": "terra1krj7amhhagjnyg2tkkuh6l0550y733jnjulzjh",
+            "coins": [
+              {
+                "denom": "uluna",
+                "amount": "10000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "core/Account",
+          "value": {
+            "address": "terra10yrwglgvsqk3edms5h9ez3n5v3qapmvetg4wve",
+            "coins": [
+              {
+                "denom": "uluna",
+                "amount": "10000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "core/Account",
+          "value": {
+            "address": "terra1pfkp8qqha94vcahh5pll3hd8ujxu8j30xrnaty",
+            "coins": [
+              {
+                "denom": "uluna",
+                "amount": "10000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "core/Account",
+          "value": {
+            "address": "terra1jz4v9tcjhxtme0tucm64ndp6z7wgz5la0xvpwz",
+            "coins": [
+              {
+                "denom": "uluna",
+                "amount": "10000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "core/Account",
+          "value": {
+            "address": "terra1j8shgrwverskvkd8srngwyna4zhlax8esmadcc",
+            "coins": [
+              {
+                "denom": "uluna",
+                "amount": "10000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "core/Account",
+          "value": {
+            "address": "terra1j3u0pp0qws9unvlkj2j4ummqtr29xmx3e8hgyx",
+            "coins": [
+              {
+                "denom": "uluna",
+                "amount": "10000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "core/Account",
+          "value": {
+            "address": "terra1h8ljdmae7lx05kjj79c9ekscwsyjd3yr8wyvdn",
+            "coins": [
+              {
+                "denom": "uluna",
+                "amount": "10000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "core/Account",
+          "value": {
+            "address": "terra18tamrs6p3auq0ldz0h9nylptp7a2v9njpzkfc4",
+            "coins": [
+              {
+                "denom": "uusd",
+                "amount": "1000000000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        },
+        {
+          "type": "core/Account",
+          "value": {
+            "address": "terra1rk6tvacasnnyssfnn00zl7wz43pjnpn7vayqv6",
+            "coins": [
+              {
+                "denom": "ukrw",
+                "amount": "100000000000000"
+              },
+              {
+                "denom": "uluna",
+                "amount": "100000000000000"
+              },
+              {
+                "denom": "umnt",
+                "amount": "100000000000000"
+              },
+              {
+                "denom": "usdr",
+                "amount": "100000000000000"
+              },
+              {
+                "denom": "uusd",
+                "amount": "100000000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": "0",
+            "sequence": "0"
+          }
+        }
+      ]
+    },
+    "treasury": {
+      "params": {
+        "tax_policy": {
+          "rate_min": "0.000500000000000000",
+          "rate_max": "0.010000000000000000",
+          "cap": {
+            "denom": "usdr",
+            "amount": "1000000"
+          },
+          "change_max": "0.000250000000000000"
+        },
+        "reward_policy": {
+          "rate_min": "0.050000000000000000",
+          "rate_max": "0.500000000000000000",
+          "cap": {
+            "denom": "unused",
+            "amount": "0"
+          },
+          "change_max": "0.025000000000000000"
+        },
+        "seigniorage_burden_target": "0.670000000000000000",
+        "mining_increment": "1.070000000000000000",
+        "window_short": "4",
+        "window_long": "52",
+        "window_probation": "12"
+      },
+      "tax_rate": "0.001000000000000000",
+      "reward_weight": "0.050000000000000000",
+      "tax_caps": {},
+      "tax_proceed": [],
+      "epoch_initial_issuance": [],
+      "cumulated_height": "0",
+      "TRs": [],
+      "SRs": [],
+      "TSLs": []
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.000000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "uluna",
+        "inflation_rate_change": "0.000000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "genutil": {
+      "gentxs": null
+    }
+  }
+}
