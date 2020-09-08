@@ -4,20 +4,10 @@
 This repo collects the genesis and configuration files for the various Terra testnets. 
 It exists so the [Core repository](https://github.com/terra-project/core) does not get bogged down with large genesis files and status updates.
 
-## Persistent Peers
-Open $HOME/.terrad/config/config.toml and edit a line starting with `persistent_peers` as below.
+## Latest networks
 
-**soju persistent peers**
-```
-persistent_peers = "1e1677e4ed9acf4e28de40b67ac01554aed1a29e@52.78.69.160:26656"
-```
-- terra 0.3.5 based
-
-**tequila persistent peers**
-```
-persistent_peers = "9ab68536fdaed15ea4377e8d9b2c56cb67057287@15.164.0.235:26656"
-```
-- terra 0.4.0-rc.3 based
+* [Tequila-0004](./soju-0014) testnet for columbus-4 release candidate
+* [Soju-0014](./soju-0014) testnet for columbus-3 mainnet
 
 ## Getting Started
 
