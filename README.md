@@ -6,7 +6,7 @@ It exists so the [Core repository](https://github.com/terra-project/core) does n
 
 ## Latest networks
 
-* [Tequila-0004](./tequila-0014) testnet for columbus-4 release candidate
+* [Tequila-0004](./tequila-0004) testnet for columbus-4 release candidate
 * [Soju-0014](./soju-0014) testnet for columbus-3 mainnet
 
 ## Getting Started
