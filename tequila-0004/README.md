@@ -32,3 +32,9 @@ Define seeds in ~/.terrad/config/config.toml
 ```
 seeds = "b8d00ea1a68092f2963f8bfb8bf3dd7010e688f8@public-seed2.terra.dev:36656"
 ```
+
+### Persistent Peer
+Only specify it when the seed node is not working well
+```
+persistent_peers = "9ab68536fdaed15ea4377e8d9b2c56cb67057287@15.164.0.235.26657"
+```
