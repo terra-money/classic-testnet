@@ -7,7 +7,6 @@ It exists so the [Core repository](https://github.com/terra-project/core) does n
 ## Latest networks
 
 * [Tequila-0004](./tequila-0004) testnet for columbus-4 release candidate
-* [Soju-0014](./soju-0014) testnet for columbus-3 mainnet
 
 ## Getting Started
 
@@ -15,6 +14,9 @@ To get started with the latest testnet, see the
 [docs](https://docs.terra.money/guide/deploy-testnet).
 
 ## Testnet Status
+### *Oct 04, 2020 09:00 UTC*
+- soju-0014 retired
+
 ### *Aug 21, 2020 09:00 UTC*
 - tequila-0002 live
 - tequila-0001 retired
