@@ -30,11 +30,11 @@ minimum-gas-prices = "0.15uluna,0.15uusd,0.1018usdr,178.05ukrw,431.6259umnt"
 ### Seed Node
 Define seeds in ~/.terrad/config/config.toml
 ```
-seeds = "b8d00ea1a68092f2963f8bfb8bf3dd7010e688f8@public-seed2.terra.dev:36656"
+seeds = "341f51bf381566dfef0fc345c2aa882cbeebd320@public-seed2.terra.dev:36656"
 ```
 
 ### Persistent Peer
 Only specify it when the seed node is not working well
 ```
-persistent_peers = "9ab68536fdaed15ea4377e8d9b2c56cb67057287@15.164.0.235:26656"
+persistent_peers = "9ab68536fdaed15ea4377e8d9b2c56cb67057287@15.164.0.235:26656,d2033687c5e87e1a875bb37239cbb4f08b2493eb@3.35.158.83:26656"
 ```
