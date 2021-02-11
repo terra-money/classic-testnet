@@ -36,5 +36,5 @@ seeds = "341f51bf381566dfef0fc345c2aa882cbeebd320@public-seed2.terra.dev:36656"
 ### Persistent Peer
 Only specify it when the seed node is not working well
 ```
-persistent_peers = "9ab68536fdaed15ea4377e8d9b2c56cb67057287@15.164.0.235:26656,d2033687c5e87e1a875bb37239cbb4f08b2493eb@3.35.158.83:26656"
+persistent_peers = "9ab68536fdaed15ea4377e8d9b2c56cb67057287@15.164.0.235:26656,d2033687c5e87e1a875bb37239cbb4f08b2493eb@3.35.148.111:26656"
 ```
