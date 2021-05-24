@@ -1,0 +1,22 @@
+[
+  {
+    "validator_name": "node0",
+    "validator_address": "terravaloper1vk20anceu6h9s00d27pjlvslz3avetkvnwmr35",
+    "stargate_consensus_public_key": "terravalconspub1zcjduepqru8dmd56g4tz2uex8lr24l5ngtpen6lqg7829mzvhemn22k3jzwswr9a5m"
+  },
+  {
+    "validator_name": "Stakin",
+    "validator_address": "terravaloper10ja74nnrfpxu6allycnk7y2hcy0njefjqkhjdd",
+    "stargate_consensus_public_key": "terravalconspub1zcjduepqqzws94qkmylva5dpvr3pey3ukljry4wqc2hy3nhftx02ef0r060qqryrgd"
+  },
+  {
+    "validator_name": "B-Harvest",
+    "validator_address": "terravaloper17qy25m5v2j42ye880n3xk2exz5tedsfe4p8w3c",
+    "stargate_consensus_public_key": "terravalconspub1zcjduepq04magjg24axmldk888saj7cdhwnunnhkcmd79fvzej034xuuls2ss5s9x3"
+  },
+  {
+    "validator_name": "Masternode24.de",
+    "validator_address": "terravaloper15qjn7ke9s47qn4mte3lerkxtjjgp38n5qquzsu",
+    "stargate_consensus_public_key": "terravalconspub1zcjduepqzazsep83hkyuev0pp8cps9whczkhswdatwyy8t2xv88hg5xuvr8sh96ejj"
+  }
+]
