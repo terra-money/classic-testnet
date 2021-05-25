@@ -5,7 +5,7 @@ Testnet for Columbus-5.
 [core@v0.5.0-beta1](https://github.com/terra-project/core/releases/v0.5.0-beta1) is used to run the testnet.
 
 - The genesis is forked from the Tequila-0004 network at height #4095000.
-- The genesis event for Bombay testnet will occur Wednesday 10PM KST
+- The genesis event for Bombay testnet will occur **Wednesday 10PM KST**
 
 ## Export Genesis
 Export requires at least 16GB memory
