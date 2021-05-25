@@ -5,7 +5,7 @@ Testnet for Columbus-5.
 [core@v0.5.0-beta1](https://github.com/terra-project/core/releases/v0.5.0-beta1) is used to run the testnet.
 
 - The genesis is forked from the Tequila-0004 network at height #4095000.
--  The genesis event for Bombay testnet will occur Wednesday 10PM KST
+- The genesis event for Bombay testnet will occur **Wednesday 10PM KST**
 
 ## Export Genesis
 Export requires at least 16GB memory
@@ -41,5 +41,6 @@ go: go version go1.16.4 linux/amd64
 $ terrad init
 $ wget https://github.com/terra-project/testnet/blob/master/bombay-0005/genesis.json
 $ cp genesis.json ~/.terra/config/genesis.json
+$ sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.15uluna,0.1018usdr,0.15uusd,178.05ukrw,431.6259umnt,0.125ueur,0.97ucny,16.0ujpy,0.11ugbp,11.0uinr,0.19ucad,0.13uchf,0.19uaud,0.2usgd,4.62uthb,1.25usek"/g' ~/.terra/config/app.toml
 $ terrad start
 ```
