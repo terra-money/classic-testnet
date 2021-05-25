@@ -38,7 +38,7 @@ commit: 5ac5439e1d3ba17da0216181af9c09ca1155e63f
 build_tags: netgo,ledger
 go: go version go1.16.4 linux/amd64
 
-$ terrad init
+$ terrad init [moniker] --chain-id bombay-0005
 $ wget https://github.com/terra-project/testnet/blob/master/bombay-0005/genesis.json
 $ cp genesis.json ~/.terra/config/genesis.json
 $ sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.15uluna,0.1018usdr,0.15uusd,178.05ukrw,431.6259umnt,0.125ueur,0.97ucny,16.0ujpy,0.11ugbp,11.0uinr,0.19ucad,0.13uchf,0.19uaud,0.2usgd,4.62uthb,1.25usek"/g' ~/.terra/config/app.toml
