@@ -23,7 +23,7 @@ $ shasum ./new-genesis.json
 ```
 
 ## How to Setup
-**The validators who are not submit the pubkey replacement, should copy the node keys from the tequila node.**
+**The validators who did not submit the pubkey replacement, should copy the node keys from the tequila node.**
 
 ```shell
 $ git clone https://github.com/terra-project/core
