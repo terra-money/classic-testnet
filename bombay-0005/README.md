@@ -63,3 +63,14 @@ e6be82b4a659964fad27ee14f844c222fe9abadf@104.197.21.152:26656
 2c7a1c74c793456209188a59fc01d9c7f139f5be@34.136.129.123:26656
 9762192a79f88f37419d32f164a88e05ce024aec@168.119.150.243:26656
 ```
+
+### Key Changes for Validator Setup
+* `~/.terrad` home changed to `~/.terra`
+* `$ terracli rest-server` removed, instead you can activate rest-server on `~/.terra/config/app.toml` by setting `enable = true` on `[api]` section.
+* Swagger url changed to `:1317/swagger-ui/` to `:1317/swagger/`
+* Please use `bombay` branch ecosystem tools
+   - oracle feeder https://github.com/terra-project/oracle-feeder/tree/bombay 
+   - terra.js https://github.com/terra-project/terra.js/tree/bombay (`$ npm i @terra-money/terra.js@bombay`)
+
+
+Except these, you can also check changed configurations a lot, please check the changes and be familiar before Columbus-5 launching!
