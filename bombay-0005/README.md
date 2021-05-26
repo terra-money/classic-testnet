@@ -2,7 +2,7 @@
 
 Testnet for Columbus-5.
 
-[core@v0.5.0-beta1](https://github.com/terra-project/core/releases/v0.5.0-beta1) is used to run the testnet.
+[core@v0.5.0-beta1](https://github.com/terra-project/core/releases/v0.5.0-beta1) and [core@v0.5.0-beta2](https://github.com/terra-project/core/releases/v0.5.0-beta2) both can be used to run the testnet.
 
 - The genesis is forked from the Tequila-0004 network at height #4095000.
 - The genesis event for Bombay testnet will occur **2021-05-26T13:00:00Z (UTC)**
