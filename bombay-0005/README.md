@@ -45,6 +45,11 @@ $ sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.15uluna,0.1018usdr,0
 $ terrad start
 ```
 
+### Seed Nodes
+```
+8eca04192d4d4d7da32149a3daedc4c24b75f4e7@3.34.163.215:26656
+```
+
 ### Known Peers
 ```
 eb4168239744007adcce028a397fc2addf4b2520@54.150.118.40:36656
