@@ -2,10 +2,10 @@
 
 Testnet for Columbus-5.
 
-[core@v0.5.0-beta1](https://github.com/terra-project/core/releases/v0.5.0-beta1) is used to run the testnet.
+[core@v0.5.0-beta1](https://github.com/terra-project/core/releases/v0.5.0-beta1) and [core@v0.5.0-beta2](https://github.com/terra-project/core/releases/v0.5.0-beta2) both can be used to run the testnet.
 
 - The genesis is forked from the Tequila-0004 network at height #4095000.
-- The genesis event for Bombay testnet will occur **Wednesday 10PM KST**
+- The genesis event for Bombay testnet will occur **2021-05-26T13:00:00Z (UTC)**
 
 ## Export Genesis
 Export requires at least 16GB memory
@@ -45,6 +45,11 @@ $ sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.15uluna,0.1018usdr,0
 $ terrad start
 ```
 
+### Seed Nodes
+```
+8eca04192d4d4d7da32149a3daedc4c24b75f4e7@3.34.163.215:26656
+```
+
 ### Known Peers
 ```
 eb4168239744007adcce028a397fc2addf4b2520@54.150.118.40:36656
@@ -54,4 +59,7 @@ f9cb325f1ca9296c2853c2f416991e34927e23f7@207.180.213.123:26656
 c7fdeca4135e56149f5f5d84462c9eb9f059edb8@52.78.140.220:26656
 bdc57c5a7f11040bed560fceb7d9b17c117e3423@193.239.85.118:26656
 05bf2a0786c34f07452f21a0d4fc00061224b59f@138.201.60.238:26656
+e6be82b4a659964fad27ee14f844c222fe9abadf@104.197.21.152:26656 
+2c7a1c74c793456209188a59fc01d9c7f139f5be@34.136.129.123:26656
+9762192a79f88f37419d32f164a88e05ce024aec@168.119.150.243:26656
 ```
