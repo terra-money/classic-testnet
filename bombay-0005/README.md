@@ -77,13 +77,15 @@ Except these, you can also check changed configurations a lot, please check the 
 
 
 ### Frequently Asked Questions
-#### Error: invalid character 'e' in literal true (expecting 'r')
-`$ terrad tendermint show-validator [--home]` command does not show bech32 encoded `terraconsvalpub` address, but show `'{"@type":"/cosmos.crypto.ed25519.PubKey","key":"bwVWtrsVrhimkACyF6lwLogwgWTtHUSnjVTl/20DLrw="}'` protobuf style interface JSON. so `$ terrad tx staking create-valdiator --pubkey` now receive this pubkey interface JSON string.
-```
-$ terrad tx staking create-validator \
-    --pubkey '{"@type":"/cosmos.crypto.ed25519.PubKey","key":"bwVWtrsVrhimkACyF6lwLogwgWTtHUSnjVTl/20DLrw="}' \
-    ...
-```
+* **Error: invalid character 'e' in literal true (expecting 'r')**
 
-#### Error: No directory provided for file keyring
-Problem is not fully solved, but you can still use the commands with `--keyring-back-end=os` 
+   `$ terrad tendermint show-validator [--home]` command does not show bech32 encoded `terraconsvalpub` address, but show `'{"@type":"/cosmos.crypto.ed25519.PubKey","key":"bwVWtrsVrhimkACyF6lwLogwgWTtHUSnjVTl/20DLrw="}'` protobuf style interface JSON. so `$ terrad tx staking create-valdiator --pubkey` now receive this pubkey interface JSON string.
+   ```
+   $ terrad tx staking create-validator \
+       --pubkey '{"@type":"/cosmos.crypto.ed25519.PubKey","key":"bwVWtrsVrhimkACyF6lwLogwgWTtHUSnjVTl/20DLrw="}' \
+       ...
+   ```
+
+* **Error: No directory provided for file keyring**
+
+   Problem is not fully solved, but you can still use the commands with `--keyring-back-end=os` 
