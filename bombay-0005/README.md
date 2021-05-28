@@ -89,3 +89,4 @@ Except these, you can also check changed configurations a lot, please check the 
 * **Error: No directory provided for file keyring**
 
    Problem is not fully solved, but you can still use the commands with `--keyring-back-end=os` 
+   Fixed in https://github.com/cosmos/cosmos-sdk/pull/9211
