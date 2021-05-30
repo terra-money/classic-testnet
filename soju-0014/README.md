@@ -2,13 +2,13 @@
 You need go1.13 or later.
 
 #### Download binary
-* link: https://github.com/terra-project/core/releases/tag/v0.3.7
+* link: https://github.com/terra-money/core/releases/tag/v0.3.7
 
 Put binaries into path. You should verify installation by executing ```terrad version --long```
 
 #### Compile from the source
 ```
-git clone https://github.com/terra-project/core
+git clone https://github.com/terra-money/core
 cd core
 git checkout v0.3.7`
 make install
@@ -19,7 +19,7 @@ make install
 
 - Download genesis.json to ~/.terrad
 ```
-wget -qO- https://raw.githubusercontent.com/terra-project/testnet/master/soju-0014/genesis.json
+wget -qO- https://raw.githubusercontent.com/terra-money/testnet/master/soju-0014/genesis.json
 ```
 
 ## Persistent Peers

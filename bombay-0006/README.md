@@ -2,7 +2,7 @@
 
 Testnet for Columbus-5.
 
-[core@v0.5.0-beta3](https://github.com/terra-project/core/releases/v0.5.0-beta3).
+[core@v0.5.0-beta3](https://github.com/terra-money/core/releases/v0.5.0-beta3).
 
 - The genesis is forked from the Tequila-0004 network at height #4095000.
 - The genesis event for Bombay testnet will occur **2021-05-31T06:00:00Z (UTC)**
@@ -26,7 +26,7 @@ $ shasum ./new-genesis.json
 **The validators who did not submit the pubkey replacement, should copy the node keys from the tequila node.**
 
 ```shell
-$ git clone https://github.com/terra-project/core
+$ git clone https://github.com/terra-money/core
 $ git checkout v0.5.0-beta3
 $ make install
 
@@ -39,7 +39,7 @@ build_tags: netgo,ledger
 go: go version go1.16.4 linux/amd64
 
 $ terrad init [moniker] --chain-id bombay-0006
-$ wget https://raw.githubusercontent.com/terra-project/testnet/master/bombay-0006/genesis.json
+$ wget https://raw.githubusercontent.com/terra-money/testnet/master/bombay-0006/genesis.json
 $ cp genesis.json ~/.terra/config/genesis.json
 $ sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.15uluna,0.1018usdr,0.15uusd,178.05ukrw,431.6259umnt,0.125ueur,0.97ucny,16.0ujpy,0.11ugbp,11.0uinr,0.19ucad,0.13uchf,0.19uaud,0.2usgd,4.62uthb,1.25usek,1.164uhkd"/g' ~/.terra/config/app.toml
 $ terrad start
@@ -69,8 +69,8 @@ e6be82b4a659964fad27ee14f844c222fe9abadf@104.197.21.152:26656
 * `$ terracli rest-server` removed, instead you can activate rest-server on `~/.terra/config/app.toml` by setting `enable = true` on `[api]` section.
 * Swagger url changed to `:1317/swagger-ui/` to `:1317/swagger/`
 * Please use `bombay` branch ecosystem tools
-   - oracle feeder https://github.com/terra-project/oracle-feeder/tree/bombay 
-   - terra.js https://github.com/terra-project/terra.js/tree/bombay (`$ npm i @terra-money/terra.js@bombay`)
+   - oracle feeder https://github.com/terra-money/oracle-feeder/tree/bombay 
+   - terra.js https://github.com/terra-money/terra.js/tree/bombay (`$ npm i @terra-money/terra.js@bombay`)
 
 
 Except these, you can also check changed configurations a lot, please check the changes and be familiar before Columbus-5 launching!

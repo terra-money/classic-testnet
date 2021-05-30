@@ -2,7 +2,7 @@
 ![banner](./terra-networks.png)
 
 This repo collects the genesis and configuration files for the various Terra testnets. 
-It exists so the [Core repository](https://github.com/terra-project/core) does not get bogged down with large genesis files and status updates.
+It exists so the [Core repository](https://github.com/terra-money/core) does not get bogged down with large genesis files and status updates.
 
 ## Latest networks
 
