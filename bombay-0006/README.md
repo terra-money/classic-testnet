@@ -41,7 +41,7 @@ go: go version go1.16.4 linux/amd64
 $ terrad init [moniker] --chain-id bombay-0006
 $ wget https://raw.githubusercontent.com/terra-money/testnet/master/bombay-0006/genesis.json
 $ cp genesis.json ~/.terra/config/genesis.json
-$ sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.15uluna,0.1018usdr,0.15uusd,178.05ukrw,431.6259umnt,0.125ueur,0.97ucny,16.0ujpy,0.11ugbp,11.0uinr,0.19ucad,0.13uchf,0.19uaud,0.2usgd,4.62uthb,1.25usek,1.164uhkd"/g' ~/.terra/config/app.toml
+$ sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.01133uluna,0.15uusd,0.104938usdr,169.77ukrw,428.571umnt,0.125ueur,0.98ucny,16.37ujpy,0.11ugbp,10.88uinr,0.19ucad,0.14uchf,0.19uaud,0.2usgd,4.62uthb,1.25usek,1.25unok,0.9udkk"/g' ~/.terra/config/app.toml
 $ terrad start
 ```
 
