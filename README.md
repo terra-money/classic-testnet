@@ -11,7 +11,7 @@ It exists so the [Core repository](https://github.com/terra-money/core) does not
 ## Getting Started
 
 To get started with the latest testnet, see the
-[docs](https://docs.terra.money/guide/deploy-testnet).
+[docs](https://docs.terra.money/node/join-network.html#joining-a-network).
 
 ## Testnet Status
 ### *Oct 04, 2020 09:00 UTC*
