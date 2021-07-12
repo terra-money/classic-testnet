@@ -10,6 +10,7 @@ Testnet for Columbus-5.
 ## Export Genesis
 Export requires at least 16GB memory
 ```shell
+# terrad version should be v0.4.6
 $ terrad export --height 4852100 > exported-genesis.json
 $ sha256sum ./exported-genesis.json
 3a6f130bc9f2192c167e3150ca863942af5d48409c08ed48c64b79a05521876f  ./exported-genesis.json
@@ -17,6 +18,7 @@ $ sha256sum ./exported-genesis.json
 
 ## Migrate Genesis
 ```shell
+# terrad version should be v0.5.0-rc0
 $ terrad migrate ./exported-genesis.json --chain-id=bombay-0008 --initial-height=4852101 --genesis-time=2021-07-14T06:00:00Z --replacement-cons-keys ./pubkey-replace.json > new-genesis.json
 $ sha256sum ./new-genesis.json
 b9d476c43cafe37772655ddb41f4f2a3382bc01252531b19276c1e84238bcd02  ./new-genesis.json
