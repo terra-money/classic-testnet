@@ -15,19 +15,19 @@ To get started with the latest testnet, see the
 [docs](https://docs.terra.money/node/join-network.html#joining-a-network).
 
 ## Testnet Status
-### *July 14, 2020 06:00 UTC*
+### *July 14, 2021 06:00 UTC*
 - bombay-0008 live
 - bombay-0007 retired
 
-### *June 04, 2020 00:00 UTC*
+### *June 04, 2021 00:00 UTC*
 - bombay-0007 live
 - bombay-0006 retired
 
-### *May 31, 2020 06:00 UTC*
+### *May 31, 2021 06:00 UTC*
 - bombay-0006 live
 - bombay-0005 retired
 
-### *May 26, 2020 13:00 UTC* 
+### *May 26, 2021 13:00 UTC* 
 - bombay-0005 live
 
 ### *Oct 04, 2020 09:00 UTC*
