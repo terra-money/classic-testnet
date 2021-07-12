@@ -6,7 +6,7 @@ It exists so the [Core repository](https://github.com/terra-money/core) does not
 
 ## Latest networks
 
-* [Bombay-0007](./bombay-0007) testnet for columbus-5 release candidate
+* [Bombay-0008](./bombay-0008) testnet for columbus-5 release candidate
 * [Tequila-0004](./tequila-0004) testnet for columbus-4 
 
 ## Getting Started
@@ -15,6 +15,10 @@ To get started with the latest testnet, see the
 [docs](https://docs.terra.money/node/join-network.html#joining-a-network).
 
 ## Testnet Status
+### *July 14, 2020 06:00 UTC*
+- bombay-0008 live
+- bombay-0007 retired
+
 ### *June 04, 2020 00:00 UTC*
 - bombay-0007 live
 - bombay-0006 retired
