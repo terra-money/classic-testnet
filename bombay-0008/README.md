@@ -44,6 +44,9 @@ $ terrad init [moniker] --chain-id bombay-0008
 $ wget https://raw.githubusercontent.com/terra-money/testnet/master/bombay-0008/genesis.json
 $ cp genesis.json ~/.terra/config/genesis.json
 $ sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.15uluna,0.1018usdr,0.15uusd,178.05ukrw,431.6259umnt,0.125ueur,0.97ucny,16.0ujpy,0.11ugbp,11.0uinr,0.19ucad,0.13uchf,0.19uaud,0.2usgd,4.62uthb,1.25usek,1.164uhkd,0.9udkk,1.25unok"/g' ~/.terra/config/app.toml
+
+## If you have data of the previous chain, please run
+## $ terrad unsafe-reset-all
 $ terrad start
 ```
 
