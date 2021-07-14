@@ -51,7 +51,7 @@ $ terrad start
 ```
 
 ### Migrate wasm config from the bombay-0007
-If you start your setup from the previous network, plese merge your wasm.toml config into app.toml
+If you start your setup from the previous network, please merge your wasm.toml config into app.toml
 ```shell
 # copy the contents of
 $ cat ~/.terra/config/wasm.toml
