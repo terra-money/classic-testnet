@@ -50,6 +50,28 @@ $ sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.15uluna,0.1018usdr,0
 $ terrad start
 ```
 
+### Migrate wasm config from the bombay-0007
+If you start your setup from the previous network, plese merge your wasm.toml config into app.toml
+```shell
+# copy the contents of
+$ cat ~/.terra/config/wasm.toml
+
+# create [wasm] section and past the contents
+$ nano ~/.terra/config/app.toml
+
+[wasm]
+# The maximum gas amount can be spent for contract query.
+# The contract query will invoke contract execution vm,
+# so we need to restrict the max usage to prevent DoS attack
+contract-query-gas-limit = "3000000"
+
+# The flag to specify whether print contract logs or not
+contract-debug-mode = "false"
+
+# The WASM VM memory cache size in MiB not bytes
+contract-memory-cache-size = "500"
+```
+
 ### Seed Nodes
 ```
 8eca04192d4d4d7da32149a3daedc4c24b75f4e7@3.34.163.215:26656
