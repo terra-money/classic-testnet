@@ -1,5 +1,8 @@
 # Public Testnet for Columbus-4
- 
+
+## Version
+Terrad v0.4.6
+
 ## Timelines
 
 * September 3, 2020 06:00 KST, Collect Genesis Addresses
