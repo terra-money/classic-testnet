@@ -36,7 +36,7 @@ $ terrad version --long
 name: terra
 server_name: terrad
 version: 0.5.0
-commit: {filled later}
+commit: d6037b9a12c8bf6b09fe861c8ad93456aac5eebb
 build_tags: netgo,ledger
 go: go version go1.16.5 darwin/amd64
 
