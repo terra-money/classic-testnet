@@ -1,4 +1,4 @@
-# Bombay-0007
+# Bombay-0008
 
 Testnet for Columbus-5.
 
@@ -10,6 +10,7 @@ Testnet for Columbus-5.
 ## Export Genesis
 Export requires at least 16GB memory
 ```shell
+# terrad@v0.4.6
 $ terrad export --height 4852100 > exported-genesis.json
 $ sha256sum ./exported-genesis.json
 3a6f130bc9f2192c167e3150ca863942af5d48409c08ed48c64b79a05521876f  ./exported-genesis.json
@@ -17,6 +18,7 @@ $ sha256sum ./exported-genesis.json
 
 ## Migrate Genesis
 ```shell
+# terrad@v0.5.0-rc0
 $ terrad migrate ./exported-genesis.json --chain-id=bombay-0008 --initial-height=4852101 --genesis-time=2021-07-14T06:00:00Z --replacement-cons-keys ./pubkey-replace.json > new-genesis.json
 $ sha256sum ./new-genesis.json
 b9d476c43cafe37772655ddb41f4f2a3382bc01252531b19276c1e84238bcd02  ./new-genesis.json
@@ -42,7 +44,32 @@ $ terrad init [moniker] --chain-id bombay-0008
 $ wget https://raw.githubusercontent.com/terra-money/testnet/master/bombay-0008/genesis.json
 $ cp genesis.json ~/.terra/config/genesis.json
 $ sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.15uluna,0.1018usdr,0.15uusd,178.05ukrw,431.6259umnt,0.125ueur,0.97ucny,16.0ujpy,0.11ugbp,11.0uinr,0.19ucad,0.13uchf,0.19uaud,0.2usgd,4.62uthb,1.25usek,1.164uhkd,0.9udkk,1.25unok"/g' ~/.terra/config/app.toml
+
+## If you have data of the previous chain, please run
+## $ terrad unsafe-reset-all
 $ terrad start
+```
+
+### Migrate wasm config from the bombay-0007
+If you start your setup from the previous network, please merge your wasm.toml config into app.toml
+```shell
+# copy the contents of
+$ cat ~/.terra/config/wasm.toml
+
+# create [wasm] section and past the contents
+$ nano ~/.terra/config/app.toml
+
+[wasm]
+# The maximum gas amount can be spent for contract query.
+# The contract query will invoke contract execution vm,
+# so we need to restrict the max usage to prevent DoS attack
+contract-query-gas-limit = "3000000"
+
+# The flag to specify whether print contract logs or not
+contract-debug-mode = "false"
+
+# The WASM VM memory cache size in MiB not bytes
+contract-memory-cache-size = "500"
 ```
 
 ### Seed Nodes
