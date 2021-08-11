@@ -1,0 +1,22 @@
+[
+  {
+    "validator_name": "node0",
+    "validator_address": "terravaloper1vk20anceu6h9s00d27pjlvslz3avetkvnwmr35",
+    "stargate_consensus_public_key": "{\"@type\": \"/cosmos.crypto.ed25519.PubKey\",\"key\": \"Hw7dtppFViVzJj/Gqv6TQsOZ6+BHjqLsTL53NSrRkJ0=\"}"
+  },
+  {
+    "validator_name": "Stakin",
+    "validator_address": "terravaloper10ja74nnrfpxu6allycnk7y2hcy0njefjqkhjdd",
+    "stargate_consensus_public_key": "{\"@type\": \"/cosmos.crypto.ed25519.PubKey\",\"key\": \"AJ0C1BbZPs7RoWDiHJI8t+QyVcDCrkjO6VmerKXjfp4=\"}"
+  },
+  {
+    "validator_name": "B-Harvest",
+    "validator_address": "terravaloper17qy25m5v2j42ye880n3xk2exz5tedsfe4p8w3c",
+    "stargate_consensus_public_key": "{\"@type\": \"/cosmos.crypto.ed25519.PubKey\",\"key\": \"fXfUSQqvTb+2xznh2XsNu6fJzvbG2+KlgsyfGpuc/BU=\"}"
+  },
+  {
+    "validator_name": "Masternode24.de",
+    "validator_address": "terravaloper15qjn7ke9s47qn4mte3lerkxtjjgp38n5qquzsu",
+    "stargate_consensus_public_key": "{\"@type\": \"/cosmos.crypto.ed25519.PubKey\",\"key\": \"1Z/EG6labzN4klDv52M3cZFEkDroukX4c37q5PtBhLM=\"}"
+  }
+]
