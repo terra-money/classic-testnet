@@ -12,16 +12,16 @@ Export requires at least 16GB memory
 ```shell
 # terrad@v0.4.6
 $ terrad export --height 5330000 > exported-genesis.json
-$ sha256sum ./exported-genesis.json
-4140edade69e9525ccccdcd76398722e96b7ea49b9ee0488b245dc04d83012da  ./exported-genesis.json
+$ jq -S -c -M "" ./exported-genesis.json| shasum -a 256 
+4140edade69e9525ccccdcd76398722e96b7ea49b9ee0488b245dc04d83012da ./exported-genesis.json
 ```
 
 ## Migrate Genesis
 ```shell
 # terrad@v0.5.0
 $ terrad migrate ./exported-genesis.json --chain-id=bombay-9 --initial-height=5330001 --genesis-time=2021-08-13T08:00:00Z --replacement-cons-keys ./pubkey-replace.json > new-genesis.json
-$ sha256sum ./new-genesis.json
-c5c4129c6147f1526936dca9f0025241561cc86204be1f5775ae86d88c9807ea  ./new-genesis.json
+$ jq -S -c -M "" ./new-genesis.json | shasum -a 256 
+cc4ba044ed19c39487878358442e57219e8145477c1e0424adb83d6222ac3699 ./new-genesis.json
 ```
 
 ## How to Setup
