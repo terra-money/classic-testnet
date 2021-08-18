@@ -1,11 +1,13 @@
-# Bombay-9
+# Bombay-10
 
 Testnet for Columbus-5.
 
+Both are ok
 [core@v0.5.0](https://github.com/terra-money/core/releases/v0.5.0).
+[core@v0.5.1](https://github.com/terra-money/core/releases/v0.5.1).
 
 - The genesis is forked from the tequila-0004 network at height `#5,330,000`.
-- The genesis event for bombay-9 testnet will occur **2021-08-13T08:00:00Z (UTC)**
+- The genesis event for bombay-10 testnet will occur **2021-08-20T06:00:40Z (UTC)**
 
 ## Export Genesis
 Export requires at least 16GB memory
@@ -13,15 +15,15 @@ Export requires at least 16GB memory
 # terrad@v0.4.6
 $ terrad export --height 5330000 > exported-genesis.json
 $ jq -S -c -M "" ./exported-genesis.json| shasum -a 256 
-4140edade69e9525ccccdcd76398722e96b7ea49b9ee0488b245dc04d83012da ./exported-genesis.json
+7565ace7d01fd7323b8bc82c6f3cddfd703d9287559893256893b5f4f7fe40e6 ./exported-genesis.json
 ```
 
 ## Migrate Genesis
 ```shell
 # terrad@v0.5.0
-$ terrad migrate ./exported-genesis.json --chain-id=bombay-9 --initial-height=5330001 --genesis-time=2021-08-13T08:00:00Z --replacement-cons-keys ./pubkey-replace.json > new-genesis.json
-$ jq -S -c -M "" ./new-genesis.json | shasum -a 256 
-cc4ba044ed19c39487878358442e57219e8145477c1e0424adb83d6222ac3699 ./new-genesis.json
+$ terrad migrate ./exported-genesis.json --chain-id=bombay-10 --initial-height=5330001 --genesis-time=2021-08-20T06:00:40Z --replacement-cons-keys ./pubkey-replace.json > new-genesis.json
+$ jq -S -c -M ".app_state.oracle.miss_counters|=sort_by(.validator_address)|.app_state.oracle.feeder_delegations|=sort_by(.validator_address)|.app_state.oracle.exchange_rates|=sort_by(.denom)|.app_state.oracle.tobin_taxes|=sort_by(.denom)|.app_state.treasury.tax_caps|=sort_by(.denom)" ./new-genesis.json | shasum -a 256 
+[PLACEHOLDER] ./new-genesis.json
 ```
 
 ## How to Setup
@@ -40,10 +42,11 @@ commit: d6037b9a12c8bf6b09fe861c8ad93456aac5eebb
 build_tags: netgo,ledger
 go: go version go1.16.5 darwin/amd64
 
-$ terrad init [moniker] --chain-id bombay-9
-$ wget https://raw.githubusercontent.com/terra-money/testnet/master/bombay-9/genesis.json
+$ terrad init [moniker] --chain-id bombay-10
+$ wget https://raw.githubusercontent.com/terra-money/testnet/master/bombay-10/genesis.json
 $ cp genesis.json ~/.terra/config/genesis.json
-$ sed -i 's/minimum-gas-prices = "0uluna"/minimum-gas-prices = "0.15uluna,0.1018usdr,0.15uusd,178.05ukrw,431.6259umnt,0.125ueur,0.97ucny,16.0ujpy,0.11ugbp,11.0uinr,0.19ucad,0.13uchf,0.19uaud,0.2usgd,4.62uthb,1.25usek,1.164uhkd,0.9udkk,1.25unok,2180.0uidr,7.6uphp"/g' ~/.terra/config/app.toml$ terrad start
+$ sed -i 's/minimum-gas-prices = ""/minimum-gas-prices = "0.15uluna,0.1018usdr,0.15uusd,178.05ukrw,431.6259umnt,0.125ueur,0.97ucny,16.0ujpy,0.11ugbp,11.0uinr,0.19ucad,0.13uchf,0.19uaud,0.2usgd,4.62uthb,1.25usek,1.164uhkd,0.9udkk,1.25unok"/g' ~/.terra/config/app.toml
+$ terrad start
 ```
 
 ### Seed Nodes
@@ -69,9 +72,9 @@ e6be82b4a659964fad27ee14f844c222fe9abadf@104.197.21.152:26656
 * `~/.terrad` home changed to `~/.terra`
 * `$ terracli rest-server` removed, instead you can activate rest-server on `~/.terra/config/app.toml` by setting `enable = true` on `[api]` section.
 * Swagger url changed to `:1317/swagger-ui/` to `:1317/swagger/`
-* Please use latest `main(master)` branch ecosystem tools
-   - oracle feeder https://github.com/terra-money/oracle-feeder/
-   - terra.js https://github.com/terra-money/terra.js (`$ npm i @terra-money/terra.js@^2`)
+* Please use `bombay` branch ecosystem tools
+   - oracle feeder https://github.com/terra-money/oracle-feeder/tree/bombay 
+   - terra.js https://github.com/terra-money/terra.js/tree/bombay (`$ npm i @terra-money/terra.js@bombay`)
 
 
 Except these, you can also check changed configurations a lot, please check the changes and be familiar before Columbus-5 launching!
@@ -80,7 +83,7 @@ Except these, you can also check changed configurations a lot, please check the 
 ### Frequently Asked Questions
 * **Error: invalid character 'e' in literal true (expecting 'r')**
 
-   `$ terrad tendermint show-validator [--home]` command does not show bech32 encoded `terraconsvalpub` address, but show `'{"@type":"/cosmos.crypto.ed25519.PubKey","key":"bwVWtrsVrhimkACyF6lwLogwgWTtHUSnjVTl/20DLrw="}'` protobuf style interface JSON. so `$ terrad tx staking create-validator --pubkey` now receive this pubkey interface JSON string.
+   `$ terrad tendermint show-validator [--home]` command does not show bech32 encoded `terraconsvalpub` address, but show `'{"@type":"/cosmos.crypto.ed25519.PubKey","key":"bwVWtrsVrhimkACyF6lwLogwgWTtHUSnjVTl/20DLrw="}'` protobuf style interface JSON. so `$ terrad tx staking create-valdiator --pubkey` now receive this pubkey interface JSON string.
    ```
    $ terrad tx staking create-validator \
        --pubkey '{"@type":"/cosmos.crypto.ed25519.PubKey","key":"bwVWtrsVrhimkACyF6lwLogwgWTtHUSnjVTl/20DLrw="}' \
