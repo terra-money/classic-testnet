@@ -74,7 +74,7 @@ e6be82b4a659964fad27ee14f844c222fe9abadf@104.197.21.152:26656
 * Swagger url changed to `:1317/swagger-ui/` to `:1317/swagger/`
 * Please use `bombay` branch ecosystem tools
    - oracle feeder https://github.com/terra-money/oracle-feeder/tree/bombay 
-   - terra.js https://github.com/terra-money/terra.js/tree/bombay (`$ npm i @terra-money/terra.js@bombay`)
+   - terra.js (`$ npm i -S @terra-money/terra.js@^2`)
 
 
 Except these, you can also check changed configurations a lot, please check the changes and be familiar before Columbus-5 launching!
