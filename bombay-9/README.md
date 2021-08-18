@@ -70,9 +70,9 @@ e6be82b4a659964fad27ee14f844c222fe9abadf@104.197.21.152:26656
 * `~/.terrad` home changed to `~/.terra`
 * `$ terracli rest-server` removed, instead you can activate rest-server on `~/.terra/config/app.toml` by setting `enable = true` on `[api]` section.
 * Swagger url changed to `:1317/swagger-ui/` to `:1317/swagger/`
-* Please use `bombay` branch ecosystem tools
-   - oracle feeder https://github.com/terra-money/oracle-feeder/tree/bombay 
-   - terra.js https://github.com/terra-money/terra.js/tree/bombay (`$ npm i @terra-money/terra.js@bombay`)
+* Please use latest `main(master)` branch ecosystem tools
+   - oracle feeder https://github.com/terra-money/oracle-feeder/
+   - terra.js https://github.com/terra-money/terra.js (`$ npm i @terra-money/terra.js@^2`)
 
 
 Except these, you can also check changed configurations a lot, please check the changes and be familiar before Columbus-5 launching!
