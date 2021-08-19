@@ -23,7 +23,7 @@ $ jq -S -c -M "" ./exported-genesis.json| shasum -a 256
 # terrad@v0.5.0
 $ terrad migrate ./exported-genesis.json --chain-id=bombay-10 --initial-height=5330001 --genesis-time=2021-08-20T06:00:40Z --replacement-cons-keys ./pubkey-replace.json > new-genesis.json
 $ jq -S -c -M ".app_state.oracle.miss_counters|=sort_by(.validator_address)|.app_state.oracle.feeder_delegations|=sort_by(.validator_address)|.app_state.oracle.exchange_rates|=sort_by(.denom)|.app_state.oracle.tobin_taxes|=sort_by(.denom)|.app_state.treasury.tax_caps|=sort_by(.denom)" ./new-genesis.json | shasum -a 256 
-[PLACEHOLDER] ./new-genesis.json
+df82e1e3949fc36747ee6eb127cb7650ead157a8d678e78c41c02b8680ec898d ./new-genesis.json
 ```
 
 ## How to Setup
