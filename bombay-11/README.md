@@ -2,8 +2,7 @@
 
 Testnet for Columbus-5.
 
-Both are ok
-[core@v0.5.3](https://github.com/terra-money/core/releases/v0.5.3).
+[core@v0.5.3](https://github.com/terra-money/core/releases/v0.5.3) will be used.
 
 - The genesis is forked from the tequila-0004 network at height `#5,900,000`.
 - The genesis event for bombay-11 testnet will occur **2021-09-21T09:00:00Z (UTC)**
