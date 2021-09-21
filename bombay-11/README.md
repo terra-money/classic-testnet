@@ -11,7 +11,7 @@ Testnet for Columbus-5.
 Export requires at least 16GB memory
 ```shell
 # terrad@v0.4.6
-$ terrad export --height 5330000 > exported-genesis.json
+$ terrad export --height 5900000 > exported-genesis.json
 $ jq -S -c -M "" ./exported-genesis.json| shasum -a 256 
 afa5a8077272f377e8e71b55b24409ea5469fc2ee5ab8c593c032f257f8b7f08 ./exported-genesis.json
 ```
