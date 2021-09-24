@@ -2,8 +2,7 @@
 
 Testnet for Columbus-5.
 
-Both are ok
-[core@v0.5.4](https://github.com/terra-money/core/releases/v0.5.4).
+[core@v0.5.4](https://github.com/terra-money/core/releases/v0.5.4) will be used.
 
 - The genesis is forked from the tequila-0004 network at height `#5,900,000`.
 - The genesis event for bombay-11 testnet will occur **2021-09-21T09:00:00Z (UTC)**
@@ -12,7 +11,7 @@ Both are ok
 Export requires at least 16GB memory
 ```shell
 # terrad@v0.4.6
-$ terrad export --height 5330000 > exported-genesis.json
+$ terrad export --height 5900000 > exported-genesis.json
 $ jq -S -c -M "" ./exported-genesis.json| shasum -a 256 
 afa5a8077272f377e8e71b55b24409ea5469fc2ee5ab8c593c032f257f8b7f08 ./exported-genesis.json
 ```
@@ -36,7 +35,7 @@ $ make install
 $ terrad version --long
 name: terra
 server_name: terrad
-version: 0.5.3
+version: 0.5.4
 commit: 4f37d369ed60f60046724fa0e91f970bd1a8a027
 build_tags: netgo,ledger
 go: go version go1.16.5 darwin/amd64
