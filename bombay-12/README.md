@@ -29,6 +29,7 @@ $ jq -S -c -M "" ./new-genesis.json | shasum -a 256
 
 ```shell
 $ git clone https://github.com/terra-money/core
+# validators please use v0.5.5-oracle tag
 $ git checkout v0.5.5
 $ make install
 
