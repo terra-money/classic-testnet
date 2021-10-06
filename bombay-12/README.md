@@ -8,11 +8,11 @@ Testnet for Columbus-5.
 - The genesis event for bombay-12 testnet will occur **2021-09-28T09:00:00Z (UTC)**
 
 ## Export Genesis
-Export requires at least 16GB memory
+Export requires at least 32 GB memory
 ```shell
 # terrad@v0.4.6
 $ terrad export --height 5900000 > exported-genesis.json
-$ jq -S -c -M "" ./exported-genesis.json| shasum -a 256 
+$ jq -S -c -M "" ./exported-genesis.json| shasum -a 256
 afa5a8077272f377e8e71b55b24409ea5469fc2ee5ab8c593c032f257f8b7f08 ./exported-genesis.json
 ```
 
@@ -20,7 +20,7 @@ afa5a8077272f377e8e71b55b24409ea5469fc2ee5ab8c593c032f257f8b7f08 ./exported-gene
 ```shell
 # terrad@v0.5.5
 $ terrad migrate ./exported-genesis.json --chain-id=bombay-12 --initial-height=5900001 --genesis-time=2021-09-28T09:00:00Z --replacement-cons-keys ./pubkey-replace.json > new-genesis.json
-$ jq -S -c -M "" ./new-genesis.json | shasum -a 256 
+$ jq -S -c -M "" ./new-genesis.json | shasum -a 256
 50d450bc48bbec790de670e9d2195f04feef15bc3341ef143085c1b5ac0111fc ./new-genesis.json
 ```
 
@@ -51,6 +51,8 @@ $ terrad start
 ### Seed Nodes
 ```
 8eca04192d4d4d7da32149a3daedc4c24b75f4e7@3.34.163.215:26656
+411ffa853def5e6ccba524ca85b7860c158a44b2@34.133.88.204:26656
+98efc6235550849fb04b50c890bf720c711a128b@144.2.71.66:29656
 ```
 
 ### Known Peers
@@ -62,7 +64,7 @@ f9cb325f1ca9296c2853c2f416991e34927e23f7@207.180.213.123:26656
 c7fdeca4135e56149f5f5d84462c9eb9f059edb8@52.78.140.220:26656
 bdc57c5a7f11040bed560fceb7d9b17c117e3423@193.239.85.118:26656
 05bf2a0786c34f07452f21a0d4fc00061224b59f@138.201.60.238:26656
-e6be82b4a659964fad27ee14f844c222fe9abadf@104.197.21.152:26656 
+e6be82b4a659964fad27ee14f844c222fe9abadf@104.197.21.152:26656
 2c7a1c74c793456209188a59fc01d9c7f139f5be@34.136.129.123:26656
 9762192a79f88f37419d32f164a88e05ce024aec@168.119.150.243:26656
 ```
@@ -72,7 +74,7 @@ e6be82b4a659964fad27ee14f844c222fe9abadf@104.197.21.152:26656
 * `$ terracli rest-server` removed, instead you can activate rest-server on `~/.terra/config/app.toml` by setting `enable = true` on `[api]` section.
 * Swagger url changed to `:1317/swagger-ui/` to `:1317/swagger/`
 * Please use `bombay` branch ecosystem tools
-   - oracle feeder https://github.com/terra-money/oracle-feeder/tree/bombay 
+   - oracle feeder https://github.com/terra-money/oracle-feeder/tree/bombay
    - terra.js (`$ npm i -S @terra-money/terra.js@^2`)
 
 
@@ -88,4 +90,3 @@ Except these, you can also check changed configurations a lot, please check the 
        --pubkey '{"@type":"/cosmos.crypto.ed25519.PubKey","key":"bwVWtrsVrhimkACyF6lwLogwgWTtHUSnjVTl/20DLrw="}' \
        ...
    ```
-
