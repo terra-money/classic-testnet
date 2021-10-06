@@ -50,7 +50,9 @@ $ terrad start
 
 ### Download the Address Book
 
-[addrbook.json](/addrbook.json)
+[addrbook.json](addrbook.json)
+
+You should place this file in the `~/.terra/config` directory after downloading.
 
 
 ### Known Peers
