@@ -52,8 +52,7 @@ $ terrad start
 
 [addrbook.json](addrbook.json)
 
-You should place this file in the `~/.terra/config` directory after downloading.
-
+After the file is downloaded, put it in the the `~/.terra/config` directory.
 
 ### Known Peers
 ```
