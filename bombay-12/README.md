@@ -48,12 +48,11 @@ $ sed -i 's/minimum-gas-prices = "0uluna"/minimum-gas-prices = "0.15uluna,0.1018
 $ terrad start
 ```
 
-### Seed Nodes
-```
-8eca04192d4d4d7da32149a3daedc4c24b75f4e7@3.34.163.215:26656
-411ffa853def5e6ccba524ca85b7860c158a44b2@34.133.88.204:26656
-98efc6235550849fb04b50c890bf720c711a128b@144.2.71.66:29656
-```
+### Download the Address Book
+
+[addrbook.json](addrbook.json)
+
+After the file is downloaded, put it in the the `~/.terra/config` directory.
 
 ### Known Peers
 ```
