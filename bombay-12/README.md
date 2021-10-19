@@ -2,7 +2,7 @@
 
 Testnet for Columbus-5.
 
-[core@v0.5.5](https://github.com/terra-money/core/releases/v0.5.5) will be used.
+[core@v0.5.7](https://github.com/terra-money/core/releases/v0.5.7) will be used.
 
 - The genesis is forked from the tequila-0004 network at height `#5,900,000`.
 - The genesis event for bombay-12 testnet will occur **2021-09-28T09:00:00Z (UTC)**
@@ -18,7 +18,7 @@ afa5a8077272f377e8e71b55b24409ea5469fc2ee5ab8c593c032f257f8b7f08 ./exported-gene
 
 ## Migrate Genesis
 ```shell
-# terrad@v0.5.5
+# terrad@v0.5.7
 $ terrad migrate ./exported-genesis.json --chain-id=bombay-12 --initial-height=5900001 --genesis-time=2021-09-28T09:00:00Z --replacement-cons-keys ./pubkey-replace.json > new-genesis.json
 $ jq -S -c -M "" ./new-genesis.json | shasum -a 256
 50d450bc48bbec790de670e9d2195f04feef15bc3341ef143085c1b5ac0111fc ./new-genesis.json
@@ -29,15 +29,15 @@ $ jq -S -c -M "" ./new-genesis.json | shasum -a 256
 
 ```shell
 $ git clone https://github.com/terra-money/core
-# validators please use v0.5.5-oracle tag
-$ git checkout v0.5.5
+# validators please use v0.5.7-oracle tag
+$ git checkout v0.5.7
 $ make install
 
 $ terrad version --long
 name: terra
 server_name: terrad
-version: 0.5.5
-commit: d8e277626e74f9d6417dcd598574686882f0274c
+version: 0.5.7
+commit: 1581f2f7117b51363f0aca8127fcea8325cee928
 build_tags: netgo,ledger
 go: go version go1.16.5 darwin/amd64
 
