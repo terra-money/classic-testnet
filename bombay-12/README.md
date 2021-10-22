@@ -2,7 +2,7 @@
 
 Testnet for Columbus-5.
 
-[core@v0.5.7](https://github.com/terra-money/core/releases/v0.5.7) will be used.
+[core@v0.5.9](https://github.com/terra-money/core/releases/v0.5.9) will be used.
 
 - The genesis is forked from the tequila-0004 network at height `#5,900,000`.
 - The genesis event for bombay-12 testnet will occur **2021-09-28T09:00:00Z (UTC)**
@@ -18,7 +18,7 @@ afa5a8077272f377e8e71b55b24409ea5469fc2ee5ab8c593c032f257f8b7f08 ./exported-gene
 
 ## Migrate Genesis
 ```shell
-# terrad@v0.5.7
+# terrad@v0.5.9
 $ terrad migrate ./exported-genesis.json --chain-id=bombay-12 --initial-height=5900001 --genesis-time=2021-09-28T09:00:00Z --replacement-cons-keys ./pubkey-replace.json > new-genesis.json
 $ jq -S -c -M "" ./new-genesis.json | shasum -a 256
 50d450bc48bbec790de670e9d2195f04feef15bc3341ef143085c1b5ac0111fc ./new-genesis.json
@@ -29,22 +29,22 @@ $ jq -S -c -M "" ./new-genesis.json | shasum -a 256
 
 ```shell
 $ git clone https://github.com/terra-money/core
-# validators please use v0.5.7-oracle tag
-$ git checkout v0.5.7
+# validators please use v0.5.9-oracle tag
+$ git checkout v0.5.9
 $ make install
 
 $ terrad version --long
 name: terra
 server_name: terrad
-version: 0.5.7
-commit: 1581f2f7117b51363f0aca8127fcea8325cee928
+version: 0.5.9
+commit: 6235f92a101d203fddd26abc6c64799c546f7716
 build_tags: netgo,ledger
 go: go version go1.16.5 darwin/amd64
 
 $ terrad init [moniker] --chain-id bombay-12
 $ wget https://raw.githubusercontent.com/terra-money/testnet/master/bombay-12/genesis.json
 $ cp genesis.json ~/.terra/config/genesis.json
-$ sed -i 's/minimum-gas-prices = "0uluna"/minimum-gas-prices = "0.15uluna,0.1018usdr,0.15uusd,178.05ukrw,431.6259umnt,0.125ueur,0.97ucny,16.0ujpy,0.11ugbp,11.0uinr,0.19ucad,0.13uchf,0.19uaud,0.2usgd,4.62uthb,1.25usek,1.164uhkd,0.9udkk,1.25unok,2180.0uidr,7.6uphp"/g' ~/.terra/config/app.toml
+$ sed -i 's/minimum-gas-prices = "0uluna"/minimum-gas-prices = "0.01133uluna,0.15uusd,0.104938usdr,169.77ukrw,428.571umnt,0.125ueur,0.98ucny,16.37ujpy,0.11ugbp,10.88uinr,0.19ucad,0.14uchf,0.19uaud,0.2usgd,4.62uthb,1.25usek,1.25unok,0.9udkk,2180.0uidr,7.6uphp,1.17uhkd"/g' ~/.terra/config/app.toml
 $ terrad start
 ```
 
