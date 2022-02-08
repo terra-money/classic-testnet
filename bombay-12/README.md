@@ -65,7 +65,7 @@ d61ee248c1b53a55cf93c60af4f4e9f7dd48b57b@seed.terra-testnet.everstake.one:26656
 d89ce884e0b431984fc8848efa9ecea8855ca070@terra-testnet.0base.vc:26656
 1fffb76a7f6bcc0c8e1e25ec8e73171b38208522@laguz.coinbevy.com:26656
 b583acaf6612b78cc0927614f2f60292bc58f6fc@35.81.139.246:26656
-5f596c72e18e5e2a25684bb7b73974790268b36f@34.73.168.168:26656
+b2cfcfaefae15d7c8b6ee28a991b20be4126db21@terra-testnet-seed.larry.coffee:26656
 3da66974005f1fc284e5a9aef869e45ee51ba0c0@terra-seed-testnet.blockngine.io:36676
 4577101e210aa6389f075cdcd6c377f98ef57a84@bombay.inotel.ro:26656
 bdc57c5a7f11040bed560fceb7d9b17c117e3423@seed-bombay.terra.01node.com:26656
