@@ -26,6 +26,10 @@ $ terrad init [moniker] --chain-id pisco-1
 $ wget https://raw.githubusercontent.com/terra-money/testnet/master/pisco-1/genesis.json
 $ cp genesis.json ~/.terra/config/genesis.json
 $ sed -i 's/minimum-gas-prices = "0uluna"/minimum-gas-prices = "0.15uluna"/g' ~/.terra/config/app.toml
+
+# This will prevent continuous reconnection try
+$ sed -i 's/external_address = ""/external_address = "[YOUR_EXTERNAL_IP_ADDRESS:PORT]"/g' ~/.terra/config/config.toml
+
 $ terrad start
 ```
 
