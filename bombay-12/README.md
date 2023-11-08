@@ -100,7 +100,7 @@ eb13d18465e9b8387b6dc3b73fc414032fc23fab@bombay.mcontrol.ml:36656
 5e71188b711b65f8ef5a18fd08413bb7cf30c7d4@seed.terra-bombay.sabai.finance:26656
 0ac871becd561e931f71825b50dc6d4a069dd80c@35.240.133.1:26680
 12a7b4d0adfc6a6ccefe8d010578793cbbddb742@terra-testnet-seed-1.stakin-nodes.com:26656
-9b0de4e76f874191ae3b08010b0a7542a73c1098@terrabombay.stakely.io:26656
+1ac151ec5d0b29ebc893c907631849ae76eb2f93@terrabombay.stakely.io:26688
 8ffc890f24985035857bc63e5ff13eaac1f77683@bombay-seed.terra.kkvalidator.com:26656
 2308feb62147331889f13aef01417a91362c79f8@34.152.3.90:26670
 c68bf400ab04b87563f8176b0246b5b68b809cd6@testnet.seed.terraindia.info:36656
